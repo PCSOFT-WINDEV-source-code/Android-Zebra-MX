@@ -1,0 +1,363 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ScreenManager
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : DisplayMgr demo
+ subtype : 0
+window :
+ name : WIN_ScreenManager
+ identifier : 0x2077226e13a44136
+ internal_properties : CAAAAAgAAAAQhymE7AsmWrfeQWdWKH7yArFEadLwXULB2Q1oGeJgPemVfYFuf38/t7mszTAL0zn85mTZNykVqRg5uMsn7A7QSqXBaSw2w8vdc/vVh1/GLXfLdaXJtauX1vdFREiIRlIyzGMQC/I7nyunEb8oFL0DsA82J50Il47JBscbl/kC91JNMW3K0u6XjEgxJexa7c4eHZOCn9bNE3YaGmZqSpD+7UduGJeNO8I2YLnkedj0K65JpdDGFMysR42+kyuYcVXWwHZCQcDnnnSxGIwCX+jrvCEBbgYXC4etlgWv2AZ9K7iWOc4BjReCNjOM+moXWPl5mA1rRjRzC0VTL9l0Owj4VLl9ztVHR9CqmfXugaUqB8xScwFLAIxQ8w3zHIn5JbKjSTGsbhY9wtX7XlOXAvywMOeUjqMF1/TaKqmrjo13nArVZXZ7Ltd8rKJXnn/YS/ZNBqzM2YSwIHA4uEG5A+GGSP/8ZyMymcZjvCpU8YOCxhmu/aXwNusX0Wc063sipS64Q0twkrgv6JmJpzi76SKHdHCMT6RQJLMl8lQLLvRkgCbRN3bq5DUy3zp+ARd1FXqkMxBd0on00S6B0RNbbD9pTodGLEdanzu7vUMOB0V3QgtvJNzJQ4aY3qUv8lxs2YOdqgPFpRLHmE/KNHkkw0JOoVMwxankxxvYXFHmKidaCWq/Xg7OG0zHYSRIhRwkkLG6enVNF5uOd0BzoAJAKue60z/IZACueOoQ4ENIuFLEPBj3zaLyTW96eRvIdmUAgc3qn9qKyo4B4TBAom+lExpi1yS7eHf5TD6TsNd5Q366FAKmLPofuyT2bZsPEgUO8ixzfXKKvqyhYgQpCcQq5m/e9YnT7IeJFypVfvCco9wkRF8zdA7lX5NpxOzPVI0JptyMu1weqkg5Uy4ra4538ODeZPIF4g==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : EDT_Stat
+    identifier : 0x2077226e13a54136
+    internal_properties : CAAAAAgAAACttFjb19VzSYBiabJRUdYcOK5GFfYZena98V9qmwKzPHUGdbsU3EknfBmVuim/TTeiHnFAORiu4Zr+aneGllNhh4ef9rrloralBGib1Lpe1LW6XoM+N+z2inG7uje+KgJtz1IovtFHYgc66veW+RflRLQFAeVu02YNNryanLrqdnldKLCOUP29wHOsRll8i2o9Vl/LRD3yUVcKx+e7sgido/BNJ2gnYu1ufwEgH8X11tmH3DE4ktLY7udJIWxdqBePyA5cCei83C9QlLRk6iwnHbO55ADEHz51xp5SbR0IYgPpB4vkTTCw2gDaG3vyl/e8iab9KU8a3bgY9oNcYsMkeEO87ptsqUrOZvj4gFr0oZ+x7urs22gHpxXc+O3Gk6DGLfG4mn//U3vW5CN2BoBnBTvbhx/nw3tm/N3Od9lY9XvegLr7uJWvejhK5pKg8TJqabRcD8KkMGUwr4j7SkhChkXKTB/nsI+S5oBswOgo3UzOV+hsgvZtnKfwQTf9qLe32u2KOga0kYOeUdH6rZc+ollYiHZpE25oA7xZiAVuccV3KutctXP0WzVYnplAnOZSgYl0eaW+cvF1uPcapisY09HwFgTTExmlrIpqN7oGOeIgN4TjUICAt4FmeMRtHvNur0y0gzh8kYySDUlo9bcE6o5aW+6ZE0FZ74wcYDTTcPiq2HrCnC0knSh3LeJOnKsAJsLRYJADAwQ10SNV7Tz9f4x2PWYeE/UJUu5As/TQd/t6SbjcMSEk0tudxvRGfWl37zoM3Plj+nFCHGcAB4zLNx7egqB+cXVGA8cF0insEM8TEWnketegPe3tjkjIfQ964952LbvmQUy95/J21w3earTyTgFKXCj6qoWa1a4rux9nTT63f01ivjLJ0KlAms0FwS2ZbdQUUyeIZHFOlv++GOIfZ4tRtBwpL4sm6AjOsOqYlzRnREn6hIc/4EjKGk1wcfX4x3Gq8cApXt/xykMwuEKVKaFrREunu/G8YfHAz0gr2Njs4QojCKtQnV32PEuJ4N1Q817pVbfJa4gs0hz+AIWEwlKiAXr9q27H+FQ5C2LUMSo94l9SpiqBaoEXImBrfWip4djIHIWmiJtK62+lAcDw9h0iLLN18aYD72Cm7EFJgvpiMglGu1v9s2NWn8l+LuVNNpPYT2U=
+    properties :
+     x : 8
+     y : 351
+     width : 304
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SEL_ScreenTimeoutInterval
+    identifier : 0x2077226e13a64136
+    internal_properties : CAAAAAgAAAAk6vv5eggTHBKLuKiIWxWj8bZBhK7JNlgdaXaZX9b98OrUjgulH1fmBmQ6fI8V3EM6otA6IeOTS+6HMj3hYTwf80eN/zWJ9Pvf+xGOarEZvxTZzaaaGnJ/KnVM/aWwseT6W6FgXt5/GOzpaYjdwilC4SP8L7PczEAnhkGd84QYMpQCdbyHz3SKXQIyRklM3qLTOTTMAAUZFoiqMeN50DjiVP3S5PZmDO78H0a9bOePDNF55TgziVWQcE/hclAhrX79YZmtPq7+JB96IQ15CROKMUd2827LTn7lJqREKrlrVOEbPi6Z5xNXPnB0cYpfnXlRER9mVdsnOnsbt3wze4ssZErOvT0M1IFlGdDp8EBZUWjCRYTktT5mJMO0u+I68bXnp0AA4BSxabqgkDdDaqJQ1dtu2GSOqYX6QinphK6RN6KO1H7ZDtZX2/A0V9kz30LKsqsI5hJGNGLX/rfb3d34fCYReZbDT5zCzJDqN6TT/MlLYJGdjHOJZYNH9KAtIIrQQqCQ/ZsUCEC6u/mngU5t9BJpt3wWFEEF/gkFQ/aAPVTcbi921H9o1LDyGfWsy0lMXM0KXY+ChPaY4RJRm5Dx6LjvRtI2Ao6MXTviidlmTmf9M+W0h1WF4uVagpX2aoK/VCGhmt8odrooL7/xCKmgupI6l/JkdO3zqUdYRwuOLnN8adAy8jouFbf+So2WJ5DUWEM5ZDo4f9lXM8mOajy7sR0si+RZb2YYvQqFvQH5UkOazq4xrdQLUyIOBRdcDfdJ4pkmFT95lwk9LAwN8Nm0X8rnGDuiLArRNGbWjV5o9oXx/Ha9oMZWyrxS093bScZ/p/bZpI3F4oTYsIu1JqALuECZefy4t2k74l2mHYUnd+JfeADgDay0jxdi35PAHlenrMioLI8RLvTMgFn7AU5w5L7Cu6VSvF4E
+    properties :
+     x : 8
+     y : 8
+     width : 304
+     height : 296
+    options :
+     -
+       internal_properties : CAAAAAgAAAA5dGszB+vjsCfXGXS1FlHK0kYWe2ENbot+zm1+p0G7jgB1XM2v7Oof3W3qNSp22EH89nDOmQu2HxkwZc8XlkYCJv2KJdC3tncvELmJvGCmDN6oW1MLjaxeuaE8V8gUNENPs031jYZNFY6o99ttZL+sho0dJI7BHY3806PNbJNaKbfqeeZkBYI=
+     -
+       internal_properties : CAAAAAgAAAD/oK/mZEysb8lCOI6J5MA7OpVucad7SlIKyqXGi4ptHY2IVErc/4H90PJxQIfP9MXTtg/N+Up4Vkb8R7VvTzLCV6odD+Eg4C4VKfMrHUyAow31gz4vI+k81pD4X6HWHuZibhk+FbTwCddVapxMzpAIBMYHJ2jI0B008HveZw0+Cudt
+     -
+       internal_properties : CAAAAAgAAAAmDcNxHpQpmIxNpfrm7hBPOdBvKjY37PmRpnIpYH62G0KHclvyTZCpV3Qid4SKRcgHfIJgFrOA8W6dMG930YX8B6fR36NNgZLCWoQGsiXT2iq+LNo5SiNMmXYmPKnTzcwfijwSwPYkwlpIjcfrYsln1+zgp3vFvz/8E/NOlfI=
+     -
+       internal_properties : CAAAAAgAAADv+MtAyrFkL1zh3w1hMwGd7BHlgtzoZFw4AoZxsmPIAtCUNC2mOp5kKXvSSrAO+QZhVN8X6JA9a+jpqHhwpsg6Ylb++W3Ic1pL7gaWbWZPpbJ6Yoew+20Ni4PkMO6QJ/t3NkIN+ETFJBHCd1xmdHeIS+t4rym1+cvMlDNg5A==
+     -
+       internal_properties : CAAAAAgAAABTXHesFt2AuziNg6l9P50ZGK0JlqA8yvBQrnZJ4s9geoAw0C2mMlaoWb+KImD6GR6psBM/uBBNPzDFYGh48qIkRIDcu7vmdUh12ChoE2xBh5SE4JHWuSeTDQV+UsSuAcWhaHg/1qIZ+CXWG/Dy+Ot8X4eci01JlWeosN+8OA==
+     -
+       internal_properties : CAAAAAgAAADzPFfMdj3gW9htY4ndH735eM2pdkBc4ODsVhVaPxUOyE4m/n90TCQed0WM8B5grxRfHPYprOQpTIhF8NhoAr4wuFzYt9+3aBEyD9SWcS73OX5uMlcEgzWxD4/wGFIQF+9D6rYZDIg5mIV2uxDSGMtcv2f8K60pdUdIEL+c2A==
+     -
+       internal_properties : CAAAAAgAAABoxxWjTMZHqv5ft4iY+MIZ6wCMg56DFE01cn0o9aw0kUiNMGlsG9JnLdJwwSqoO1b96nJiwHUltSS95hXp7X37Bl7YjM6mbjo+xsz0qB8ZrGxAjrB/NHES4/Aoijd14+Y5tMaI3ryujPSSzo+5tH+Z6f7ylYn37e2uRaWc27w=
+     -
+       internal_properties : CAAAAAgAAAD4V4Uz3FbX2k4PZzioKNIJe5D80y4TZDG94r1otTR8+XBFMHnsi4oH7dqI6ZL4Wzb9yvqqyE0V7eyN9pUJVVVv6oLk+Fra4naacuCgRGN9kHBEelw7aEVujyxsxiNZp7odiOK0qvD+XITinv8pJI+pmS6iZbmHfX0+1TUMSyw=
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : BTN_Run
+    identifier : 0x2077226e13af4136
+    internal_properties : CAAAAAgAAADmxYzAAOoa83je2bEk6CDwlWa8qnqkHuihRiojXeBSP8n+wsBEMJIiNj7+81oy7xMbFJaD3DLpiVtEn0Opr8WfXjzkpMyJdOBa//GAkO/h2rj56srBed27mp6WHsIp6RJkIV+1lWoONdMweygDOpaHikGzyuLOMo6iA1hnPrXEXsdJ5iYFAr0GRRWpW69PPxdTmD+bY0zLq41ehkEatstasV8KGY2Jzt6qSmTNfNCLaBFOvanIfgfyTzV01GpAdk/dxiThjoNVh2tzgf7mdU3d0CBR1YHxD6ycQgNLMZTmMp9VzQidy1pccNJHfRt+Nekd92hWjXIomcsJoHy3Ghd6J4OuUvxLI5fVqBlbuR/eCEgHGl/oOPGWfeWuZ/4Aice5gI9LVojH65FwDcC2sui6kJTmpD8KTK1oPkbzp0+71xWyVkxwOpddla3euv/0ihST5b1fjcGv21Ic0PPx631IoeEFynWMrdwYMBMP7KlIARd3Umabzs/KCf/d1pF78ayOY4vl6LM9cnFHN1BniLyCY2uMtsCcMgBtleqdZEIQRX6mfnrCAxVwwQLmBMdOBqoEHBaLxW5jUcix5p4XwO/jfwBMMi+qxtT/RH9McpRv5ErayhUoSRCCkB25JvEPIuXXJMUclXiBx7XpPUoBSlYLzKb3QrUu8PzLoihSgsm8VoSLQD7JJDzN1Wf8G97pks8fcCCxVBw5TVJUk7IlCrscP3NXgCf0HPBggqa6JzjiJqAnfHlS+PlFVeVNROkck+OkBFZNc48N0vIU5bs12LaiFRBxYm26RRtilAZDZpYfAJvKBzDv6qWF+lDPuKP+82yrU/px/gvxd1yKxt9cfWFKrC9yB+ovt1If/LJURSjj7CW2oZKVMTrWLxtPjlWuL5M2OJIbq8ksnzkJ4sJp1x1VCetj
+    properties :
+     x : 90
+     y : 312
+     width : 140
+     height : 31
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAABKX+aVRG0GW8QAZae54n7JSBzM4VaEbT3CmLLwlwlSCYk0zSuH0366YN5cjDh+XTyuLPmio4SnZPTVp4TMlRQps3W+q8FZl/OxSXi5+hBJwcownfQLGtRYerI5xFgWIICnLzcVhvMVnditWvwBcpwtzD9E454kbXoHfnowAZkSyiMAY7EBCkvSXEBtboeWjWePYb97ZHBjEeZBtlXfOGe4op286nF1Ea5eM5zM/dOUR2RHO7uM7Mop6D5FnRCFZj9IikkkM8PJmtXcgMXX6CuDnsbnbWZED+utT1uXOEpjUM9IJeECfwTWkVRIZE0
+        code : |1-
+         // In this example, we will create a window to dynamically control
+         // the time before the screen goes into sleep mode.
+         
+         // To do so, we will directly retrieve an XML file exported from the StageNow tool
+         // and execute this XML string from WINDEV Mobile
+         
+         // StageNow utility
+         // https://www.zebra.com/us/en/products/software/mobile-computers/mobile-app-utilities/stagenow.html
+         
+         // StageNow documentation
+         // https://techdocs.zebra.com/stagenow/4-2/about/
+         
+         // DisplayMgr documentation
+         // https://techdocs.zebra.com/stagenow/4-2/csp/display/
+         
+         // Export a StageNow profile to an MDM (creation of an XML file containing the StageNow profile)
+         // https://techdocs.zebra.com/stagenow/4-2/stagingprofiles/#exportingstagingprofiles
+         
+         // Here is the XML string resulting from the creation of our StageNow profile after exporting to an MDM
+         // for a sleep mode set to 10 min = 600 sec
+         
+         // <wap-provisioningdoc>
+         //   <characteristic version="4.3" type="DisplayMgr">
+         //     <parm name="TimeoutInterval" value="600" />
+         //   </characteristic>
+         // </wap-provisioningdoc>
+         
+         // To make this profile dynamic, we will replace the value "600" with "%TIMEOUT%"
+         
+         // The string becomes:
+         // <wap-provisioningdoc>
+         //   <characteristic version="4.3" type="DisplayMgr">
+         //     <parm name="TimeoutInterval" value="%TIMEOUT%" />
+         //   </characteristic>
+         // </wap-provisioningdoc>
+        type : 14
+      -
+        code : |1+
+         gsTextStatus = "Executing profile" + RC
+         EDT_Stat = gsTextStatus
+         
+         // Copy and paste the XML file generated by StageNow
+         sXMLStringToExecute est une chaine = [
+         	<wap-provisioningdoc>
+         		<characteristic version="4.3" type="DisplayMgr">
+         			<parm name="TimeoutInterval" value="%TIMEOUT%" />
+         		</characteristic>
+         	</wap-provisioningdoc>
+         ]
+         
+         SI SEL_ScreenTimeoutInterval = 1 ALORS
+         	// We selected "Do not change"
+         	// So, no changes are made ;)
+         	sXMLStringToExecute = Remplace(sXMLStringToExecute,"%TIMEOUT%", "Do not change")
+         	CB_Success(sXMLStringToExecute)
+         	RETOUR
+         SINON
+         	// Depending on the option selected by the user, we will assign
+         	// the time before the screen goes into sleep mode
+         	nDurationBeforeSleep est un entier
+         	
+         	SELON SEL_ScreenTimeoutInterval
+         		// 15 sec
+         		CAS 2
+         			nDurationBeforeSleep = 15
+         		// 30 sec
+         		CAS 3
+         			nDurationBeforeSleep = 30
+         		// 1 min
+         		CAS 4
+         			nDurationBeforeSleep = 60
+         		// 2 min
+         		CAS 5
+         			nDurationBeforeSleep = 120
+         		// 5 min
+         		CAS 6
+         			nDurationBeforeSleep = 300
+         		// 10 min
+         		CAS 7
+         			nDurationBeforeSleep = 600
+         		// 30 min
+         		CAS 8
+         			nDurationBeforeSleep = 1800
+         	FIN
+         	
+         	sXMLStringToExecute = Remplace(sXMLStringToExecute,"%TIMEOUT%", nDurationBeforeSleep)
+         	ZebraMXExecuteProfile("",sXMLStringToExecute,"WIN_DisplayMgr.CB_Success","WIN_DisplayMgr.CB_Error")
+         
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2077226e13b04136
+  internal_properties : CAAAAAgAAACGVefYF+DkKmkZam0euLB4bxrZ2cI35KNg+DNuVwzy8jFvSV7bhROih1TFidg+9JF66zmy5v+xT1SIv7++Ln0Tf1S9MFdhiP0qUR6KiwdnR57XVu0QXaHinDfggQUqW1vdgZn5bSxK5jasyytswN5Zv4TUAdOWIK27Zn3xjbS0XMnGQrfFuZ9Yq6MFXGKfoevFISitQIp5vIHcaVj94BzXff2CKSAFBgWQpzmTkTHNIAlx98X8yE7E6GZdiU71B8JobQ8xwOlY/MMbDQcom7vdxG5h7D+RzuQflrOzbTYPDCZdpUq7qlDl7embCNR9bwJ20vPY8u3GCI9nQFyqCCBasx1w+tKF3Q9gs3GPUBkyoFQvhUCiYUUi31l1DdLLx95NVdTMKZPV/odkYdFcCDGXok3pyohx1RRZzUSlrfA+KBXHGVx3YA==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAAMgISi3eZ1y2GcfJt/13qpXFRcz4cUHcgHDrTBu4YJ90ZsdujXCdh3yIpzqnRi0zyjn/XL9RmjzS784vF6CGh/y/NVGPcHoM1Yq3yeD9IXPgOk4T5xF4nmLIYUX3zN/ZaLbJUgbhK9ZIgdmWNdMaixyEROBYUICipKGqFlWsNCCMO816N6cFb0Px3hrSGN192/K1IIi5uRL6GhbwGnjs0GZAP1HPtsBwUpUIPdPBXGE8iQbM77PkSMbqDLd0JaL8KDWlgnRJt9RT2orbxLGQ4j1GpUH8hoQ2SQPh6dtHs1dndvA7BCPIs=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      gsTextStatus est une chaîne = ""
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+  procedures :
+   -
+     name : CB_Success
+     procedure_id : 1186454882725544246
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //CB_Success (<sXMLProfile> is string)
+      //
+      // Parameters:
+      //	sXMLProfile (UNICODE string): <specify the role of sXMLProfile>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE CB_Success(sXMLProfile est une chaine)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus("Profile executed successfully:")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sXMLProfile)
+     type : 458752
+   -
+     name : AddLineToStatus
+     procedure_id : 1186454882725609782
+     type_code : 14
+     code : |1+
+      // Summary: Adds a line of text to the EDT_Stat control
+      // Syntax:
+      //AddLineToStatus (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text to be added to the application status
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // AddLineToStatus("Fly me to the moon")
+      //
+      PROCEDURE AddLineToStatus(sLineToAdd est une chaîne)
+      ExécuteThreadPrincipal(AddLineToStatusT,sLineToAdd)
+      
+     type : 458752
+   -
+     name : AddLineToStatusT
+     procedure_id : 1186454882725675318
+     type_code : 14
+     code : |1+
+      // Summary: Procedure executed in the main thread from AddLineToStatus
+      // Syntax:
+      //AddLineToStatusT (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text string to be added
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCÉDURE AddLineToStatusT(sLineToAdd est une chaîne)
+      gsTextStatus += sLineToAdd + RC
+      EDT_Stat = gsTextStatus
+      //EDT_Stat..Cursor = Length(EDT_Stat)+1
+      
+      
+     type : 458752
+   -
+     name : CB_Error
+     procedure_id : 1186454882725740854
+     type_code : 14
+     code : |1-
+      // Summary: Procedure run when a PrintConnect method returns an error
+      // Syntax:
+      //CB_Error (<sMxProfile> is string, <sMessage> is string, <sError> is string)
+      //
+      // Parameters:
+      //	sMxProfile (UNICODE string): MX profile affected by the error
+      //	sMessage (UNICODE string): Message associated to the error
+      //	sError (UNICODE string): Error encountered in JSON format
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // CB_ErrOr("An error occurred when retrieving the Status","PC_NO_PRINTER_SELECTED")
+      //
+      PROCÉDURE CB_Error(sMxProfile est une chaine, sMessage est une chaine, sError est une chaîne)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMessage)
+      AddLineToStatus("-------------------------------------------")
+      SI sError <> "" ALORS
+      	AddLineToStatus("Error details: ")
+      	AddLineToStatus("-------------------------------------------")
+      	AddLineToStatus(sError)
+      	AddLineToStatus("-------------------------------------------")
+      FIN
+      AddLineToStatus("MX profile: ")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMxProfile)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1ef1fec50027f193
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

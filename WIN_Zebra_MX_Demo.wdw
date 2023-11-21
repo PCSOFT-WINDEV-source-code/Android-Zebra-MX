@@ -1,0 +1,586 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Zebra_MX_Demo
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Zebra_MX_Demo
+ identifier : 0x2077226b12e13446
+ internal_properties : CAAAAAgAAADA6mBzouTNhV8e5wS4SPqC9Ys8+mYR1qiv0vL8h6M96WziVeQylT3DynROzLDfCKYsHA6PrZX23KSc8ZEufMQDN+xGK7PuXU1dnifNNGPeJ6Lm8QIgtSqGES/SG/3pVe3ylplGt/EqkFWMVqjth4JSQK5sTII3V8pUHYuQtQeGaBBLUxnxkFm6+qpRtgMmre13Y006JzAG9Qb1yDE2EqdT8fKH51I6I6sOOTOAoyKQAtub06vZLkmSIN8NUq+EgCpHtRXhNrNwh3q9PyW1e8wU7vKgFto7V9vvRZYmD+F4KANAb8uK4rZQ7wrRejJWp0uAtxy8NKVF+fOuLL6NDDEmrsBvVOd1hHcbuImUilSGpjmCYkmFx3FGa6GavMWiPf6KCaDZCJQ6O+j6+YjYABtJKOq9GZhZ298TeLFIxjwM1EBBr7zVilLX3b/NP9hllxqoJKlkPIiA3dPCxLI4uXBhKscWu+ZwMDcoEhLfEXnuPb3SokpeWqCIU2eE/xxGvQIMnfgPaP9Noi/HJ7SKs11SCA760iJdmvLwhubKfeM6xVdz2F+yj65ZXHDpvIL3HN6YmeHS/LFTz3aVklV22KqTpUzG2aAsRYXbFjxTArvWlr2nfZY7fmh9oFfBOP5EkrOM5S2HjFAMwClJPwDfHLEjyb4mY0WQAZ7PAe+hdh9cPZaBc2KR070bNI3LFiXz9M5LN24OuZJu2zLHu+MHOEfgQ+gDDENf78E0LqT81AKGtMTnh5nQRfi/IBpQDnNlC0ma8Fy894p1EG5Vneti4aENSM/SZvC9I3MCROZRnBSyjfuXqX8C4OXFwIfmGqxAy2+iXGZv05iWBRc9s1sbNvnAxwqZgF2Gx/KlrY/kH4rmYZCpkb6M2CNpvJANcmk+K66lNGdDFZPj6eOPOXufBTTxzUbBl7Z7O53kuXYstvfzdipjl2KL22bayK0fzIDbtmVR7wLKU8TznQwm7InEv+UMrPTdW/gDc/6qfibI3E1lUGLPQw==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : EDT_Stat
+    identifier : 0x2077226b12e23446
+    internal_properties : CAAAAAgAAACYYtiY1dZWhkXn4IIfs+eFUWCneB95X039+NK9h/Ku6cVSC1J+VRG9bAVv9k0SGdJnnS25uU6Wo2hxlyNnekBUP1bpd0ImE/ZIfT4J+FYWBg5RpEFMEEvFFYOMkn1sP/kA4h6wf5KcHvOA2dmdlC5V790VpTbxPryOIm/eNY7z4N2LiN/HLHoyZeAayH2pzreM9aJgtej+Wm0SIT7LPhiSkVxRkvbTvDxcjH0j/hc9gJb+Vs1g2k9pJnhi0YBiY9nmXDl0afhMSdmDUnBRkMc3QMbU6vmNYuOgl4ghMVgqn/dE5qI5BRP35MQ27KOPh+hCTL+c+//3ZWi6tSG+/8QAWTH8++stmtHez86TfCgGD665tCVPrLTFT3LbbSPWfTk3bxm6rYE6G9vu/6kWjbwjGsAQOqO8ZvGHc4MyD4uLZ7sr88i+AOVz53ClDBCdm1oGDoQLubGKLdCKBEzcsMcZDmeof0DAMTxoKTUVjbZUM/PLotonjerUHS8o7f+GcdTDFGs/prNj3j75SkAYDTGXP0aB9l1USbfJ+5gan4+XjjMHNHgjgxJLm66vF978HmrHYUeiTxIULMy/hiKKNgASKEVrodOjGkjDtlXoCoG9u42noTixUgjedHpRk/WIjJHkb5oLXPZmSihJt1DE75XPVdoduS+rtsiLfKQRfSovm+ctbyHgmCKoxYoQuD7cfNiZQLCBl5SCJQC15syBCnoF0CDOPgf+41dzM1sRinkZg/xBjagMadlLCmHFbeCku5p+rmx+AjMz/LF/5IFCb+DuwVM40NpBKsFUjTHWIDrYFB8ilkLeSh2OUAzxJ16SLHlP/dYiw0cBCT/2C9MP4xZkergD5zoPFJeJFzkDBd25I+PO09Mzsazi7TVP3uY/os10GGDE66LwQDfJGMRQkUiVY0cZCriMyqTH4wjOHYf6JWg4zcsuqudZ3aaoEm6730i8YIRcU7av4LapTdXnFYu/MYfxH2sCrB4vBKRkxdHN+H6AajVxSBa3UbvmuAD+n9lshkBNXWGNn/j6OMfCfHhKwcFRoE+EDns66vJDpCg1RHixp29wz7sFPhLbIoM0RGu7y7j/OWxz2GW5bQDDFkh1d0TbLsphtcn2nw/rH/T2Izryu07zuLpr8EzEcpfGasTloe3MSCAqbpd3Ql0=
+    properties :
+     x : 8
+     y : 294
+     width : 304
+     height : 104
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : IMG_NoName40
+    identifier : 0x2077226b12e33446
+    internal_properties : CAAAAAgAAAA66/MgP6CqfQzt1gMJiv3eiT3aehGL9x+F3PqDp0Kdddt9+4jHVSj6ppMNfbpb6+erA5YZoKltWhoOo3w19TLnFqHfKP9LSakn/frbYDpYEbhIyZbhMtOmkZnPRlh7irOfRbr1SpZdQsDK3Z97KC927fvz9yCaYh/5NCI2UriT41qU2ULpv4xDcew2xvVnBkqUPr71O9AZuLPKIORgILEUrsfhJvi9TqVRoE3leQUWr1rcYoo3g/sm0jTd32pIHuxUlQNx5cNRPWAB7+KwdqTxbsEHeb2P1oMh6Iek6HUWviJFk4VH8lJzHoNKjPkQzI1FTEA9bRJ103+6YeVTc1fFXk3QszYQnKuvUAkLR6h0B5Bu6sxKr8snj5rhwu0sKpd8/Y+flMV1yXv6hmkHVqh/HlQVaJWnrhFQrkKXGSwpbcgZF34qjZ9d2ksVWiPeazU+Uuf6QpdeHOHAlbH4xL7JHa7lXreL+Jl6U43FBipeV91fIYg4Ib5OMT4/vspYROgjj6qKjcDs5lq1UQ7eGfaBjLfTks9/4Fe09MqVw7snR2oXr0rJE+zF7tIy1G+Ggg7G1faPGMoiau0sbcTsGIWx5tlKij+tqiQyOunUsofE1Nr5go/POsuDwIfOy6EFY5Eueewd7w180m66zO3aBjJEooHjnSOdSTEaG2rCISW37vkl/uU7kHjmJ7BkwADO5WWmgmZZVPT0u8cNjGHq2hBAVcDclp/eLEaN030BVaNflADqN8TVQcPNkYG5TAbcTkuBYzkvIi9k0I8fNJb31kvf7v/1ncIUrOTggElRy/TL9GRmv7g=
+    properties :
+     x : 8
+     y : 8
+     width : 304
+     height : 241
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LOOP_Examples
+    identifier : 0x2077226b12e43446
+    internal_properties : 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
+    properties :
+     y : -17
+     width : 320
+     height : 303
+    controls :
+     -
+       name : STC_CSPName
+       identifier : 0x2077226b12e73446
+       internal_properties : CAAAAAgAAAB4lNpoKpniUSXXezH/xDUVY1R3PBoyPJMJOmxhKx1/4f5EK9Zh+8QezpHdtM4ORUT4yDeB6sNMxxxx/XvnJNofjCPiFiGJB4x6wQp0GMeXy2zfe3vTfHPlYiJUiX8lHldMDDHNXAMignkzRZYnHpnjMt8FI2PSb5lwdHj6EgGJpaD56KI98XFFarp0iLVtvd/UxGM50Qjp0UjAGlCeGBtSy/0qJ3Cs1KLijX7ayGO5Kx/StOCZzkYL4WeF4vDB2Kvzsct3woMILx6WqBkutz23S89ROyRr7nohT+FUm7VsxPsZeaPcp219BDx506vkDNBG8F2KepMN2Tur5ma0dnr8UuA6r5uR61bFnvtlJNSnFFF7CDKuwgY6yzWfcMdFd4l0WybbmqIRkVKHXRkwjyL/N/SY6pnj5SbOex17mhzG1hvfou/QAtiVBqD1OtYHgmgo6xyfldLXOkFDwn2MHhiw0Ziquji7tdkbvUZfoWmIJ23p
+       properties :
+        x : 8
+        y : 8
+        width : 299
+        height : 32
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : STC_Description
+       identifier : 0x2077226b12e83446
+       internal_properties : CAAAAAgAAACBRTzzn1kMavmrTYc/uw1dI91R8kV0dlbBfck7mTI6qs7GY5vmR8UhYQxf6Y7ebfIa2llaDKsKPglmv+1OOz+l7/o1ZU09jqVCEpkCKbvk5zVwftFv7v6Pc7fpauA18DeEUVRNd7cJnTK3SFi2xglm99WdAxCMvf76EcfbE+TdqHHcghnxi0GeHG4cSGnFQPA9buQrei5ZMX6WOX6cSWtV4hWPHBPeFJeJTRRubAlk/yy/k3ynEBMkKCbqcPusDhC8kBtBdt5Tav6Qu9bFT4nRQcFSYctfVMgMlIIV/ffKnxYofawcS7SqLlquAgjGNv/vzIR85I6XGGagQo+KsSTWC9484x66N/qLiWmtvdLstOh4vAiYF00f1mveB02WJydxrHZMzH5W7mCSgN08opY1ckuCIdInWWeLsnl/kXDFnkZlLYrtHt4WHAtA4DwOqfLkccm0PQqdw6k=
+       properties :
+        x : 8
+        y : 48
+        width : 299
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+    columns :
+     -
+       name : ATT_CSPName
+       identifier : 0x2077226b12e53446
+       internal_properties : CAAAAAgAAABlsrzPlfbHrXn0IeJfWiVaCVgUuHWoCDdUqTi03iHLh3fTxywzK0YeAVDNG+SKWy1eSbG9Cn8ge3Zb+gPH0rVNdLvOcBbxVP8zcoeSwBHexi0YVCg+Rw56J8A5vyenGi2a4kgSdRhQe6Ra5xtNjbUMkGfMnlJIUsbheOCcxokfo3Ai+P46
+       type : 3
+       content :
+        identifier : 0x2557a24205912c34
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Description
+       identifier : 0x2077226b12e63446
+       internal_properties : CAAAAAgAAAC7jx5tNZ6+dJrw9Cx6CGFfl5+QXQeIeXpAsW41G3NJ89ctsWiQ939ebCQ4S5wLo57uRfIFtZMoKDogcVaPm0uUNjPmB81qLz00DOLDRgyjh8/uwscC9dRteemcXh/coZy00sCvNQyLBbuWlR/EtX9m0/LftBsVij52cB5ImNZ7VggYs1O3cZ95Ew==
+       type : 3
+       content :
+        identifier : 0x2557a24205932c34
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        code : |1+
+         InitializeLooperExamples()
+         
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         SELON LOOP_Examples.ATT_CSPName
+         	CAS WIN_ScreenManager..Nom
+         		OuvreFenêtreMobile(WIN_ScreenManager)
+         	CAS WIN_ApplicationManager..Nom
+         		OuvreFenêtreMobile(WIN_ApplicationManager)
+         	CAS WIN_Clock..Nom
+         		OuvreFenêtreMobile(WIN_Clock)
+         	CAS WIN_OSManager..Nom
+         		OuvreFenêtreMobile(WIN_OSManager)
+         	CAS WIN_WIFIManager..Nom
+         		OuvreFenêtreMobile(WIN_WIFIManager)
+         	AUTRE CAS
+         		
+         FIN
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2077226b12e93446
+  internal_properties : CAAAAAgAAABNFJwBLJ/Nwzx8nfaFI8v39pFmUku+YSj7Q7b70mdtSViGtreI1NxzNrtUdkutY2z1hooXw9oS4LdrymgF+SRaNjxJPGEpDn+KMZjU0X/VUU5nntWuCQ/cfBcyR0fW8fF57T19g2AYKBrgkeEmxEwrw/B8+VnaRsvDrke7c3wegkFmmnevyXGmO+PjygR7v+VVKSwxRpYb0hG8e8LzcJ55iRliGlUqzzz1BMZ2NmZAXSIqtv6xje9nebc+8IPKOj8Vgpp+vQZxFzDIStrtoP5aYePoNeTGJ78sY/B+MmNi4Wsq+F+Qv0lcFop8A9F6IvdLL1Ip4z7TF5gwOatDYWMfRP7TR1s8lkarTpykrbyRATcK6O331LKRTsjknqMadg8cpKvlAvo+aTLf7E7Rg7wcKdRgQwH4Xp/USM/SkhsVAUz+wCW4Jw==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      gsTextStatus est une chaîne = ""
+      ghStartTime est une heure
+      gnTimerNumber est un entier
+   -
+     code : |1-
+      // Start MX component here
+      // It starts asynchronously and can take between 30 seconds and one minute
+      // depending on the device running the application.
+      // Block access to the child windows until the component initializes
+      HideButtonsChildWindows()
+      ZebraMXStart("WIN_Zebra_MX_Demo.CB_InitializationSuccess", "WIN_Zebra_MX_Demo.CB_Error")
+      AddLineToStatus("MX initialization")
+      ghStartTime = HeureSys()
+      CreateTimerWait()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      ZebraMXStopper()
+      
+     type : 2
+  procedures :
+   -
+     name : CB_InitializationSuccess
+     procedure_id : 1186454869838804038
+     type_code : 14
+     code : |1-
+      // Summary: Procedure executed when initialization is successful
+      // Delete the wait timer
+      // Shows the buttons used to open the child windows
+      // Syntax:
+      //CB_InitializationSuccess (<sMessage> is string)
+      //
+      // Parameters:
+      //	sMessage (UNICODE string): <specify the role of sMessage>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE CB_InitializationSuccess(sMessage est une chaine)
+      RemoveTimerWait()
+      ShowButtonsChildWindows()
+      AddLineToStatus(sMessage)
+      AddDurationToStatus(Vrai)
+     type : 458752
+   -
+     name : AddLineToStatus
+     procedure_id : 1186454869838869574
+     type_code : 14
+     code : |1+
+      // Summary: Adds a line of text to the EDT_Stat control
+      // Syntax:
+      //AddLineToStatus (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text to be added to the application status
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // AddLineToStatus("Fly me to the moon")
+      //
+      PROCEDURE AddLineToStatus(sLineToAdd est une chaîne)
+      ExécuteThreadPrincipal(AddLineToStatusT,sLineToAdd)
+      
+     type : 458752
+   -
+     name : AddLineToStatusT
+     procedure_id : 1186454869838935110
+     type_code : 14
+     code : |1+
+      // Summary: Procedure executed in the main thread from AddLineToStatus
+      // Syntax:
+      //AddLineToStatusT (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text string to be added
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCÉDURE AddLineToStatusT(sLineToAdd est une chaîne)
+      gsTextStatus += sLineToAdd + RC
+      EDT_Stat = gsTextStatus
+      EDT_Stat..Curseur = Taille(EDT_Stat)+1
+      
+      
+     type : 458752
+   -
+     name : CB_Error
+     procedure_id : 1186454869839000646
+     type_code : 14
+     code : |1-
+      // Summary: Procedure run when a PrintConnect method returns an error
+      // Syntax:
+      //CB_Error (<sMessage> is string, <sError> is string)
+      //
+      // Parameters:
+      //	sMessage (UNICODE string): Message associated to the error
+      //	sError (UNICODE string): Error that occurred
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // CB_ErrOr("An error occurred when retrieving the Status","PC_NO_PRINTER_SELECTED")
+      //
+      PROCÉDURE CB_Error(sMessage est une chaine, sError est une chaîne)
+      AddLineToStatus(sMessage)
+      SI sError <> "" ALORS
+      	AddLineToStatus("Error details: ")
+      	AddLineToStatus(sError)
+      FIN
+     type : 458752
+   -
+     name : AddDurationToStatus
+     procedure_id : 1186454869839066182
+     type_code : 14
+     code : |1+
+      // Summary: Adds a line of text to the EDT_Stat control
+      // Syntax:
+      //AddDurationToStatus (<bEndInitialization> is boolean)
+      //
+      // Parameters:
+      //	bEndInitialization (boolean): <specify the role of bEndInitialization>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // AddLineToStatus("Fly me to the moon")
+      //
+      //	sLineToAdd (UNICODE string): Text to be added to the application status
+      PROCEDURE AddDurationToStatus(bEndInitialization est un booléen)
+      ExécuteThreadPrincipal(AddDurationToStatusT, bEndInitialization)
+      
+     type : 458752
+   -
+     name : AddDurationToStatusT
+     procedure_id : 1186454869839131718
+     type_code : 14
+     code : |1+
+      // Summary: Procedure executed in the main thread from AddLineToStatus
+      // Syntax:
+      //AddDurationToStatusT (<bEndInitialization> is boolean)
+      //
+      // Parameters:
+      //	bEndInitialization (boolean): <specify the role of bEndInitialization>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      //	sLineToAdd (UNICODE string): Text string to be added
+      PROCÉDURE AddDurationToStatusT(bEndInitialization est un booléen)
+      thCurrentTime est une heure = HeureSys()
+      DurationWait est une Durée = thCurrentTime - ghStartTime
+      SI bEndInitialization = Faux ALORS
+      	EDT_Stat = gsTextStatus + RC + "Please wait"+ RC + "Time passed:" + DurationWait..EnMillisecondes + " ms" + RC
+      SINON
+      	gsTextStatus += "Processing duration: " + DurationWait..EnMillisecondes + " ms" + RC	
+      	EDT_Stat = gsTextStatus
+      FIN
+      EDT_Stat..Curseur = Taille(EDT_Stat)+1
+      
+      
+     type : 458752
+   -
+     name : CreateTimerWait
+     procedure_id : 1186454869839197254
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // CreateTimerWait ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE CreateTimerWait()
+      gnTimerNumber = TimerSys(AddPleaseWaitToStatus, 50)
+     type : 458752
+   -
+     name : AddPleaseWaitToStatus
+     procedure_id : 1186454869839262790
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // AddPleaseWaitToStatus ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE AddPleaseWaitToStatus()
+      AddDurationToStatus(Faux)
+     type : 458752
+   -
+     name : RemoveTimerWait
+     procedure_id : 1186454869839328326
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // RemoveTimerWait ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE RemoveTimerWait()
+      FinTimerSys(gnTimerNumber)
+     type : 458752
+   -
+     name : HideButtonsChildWindows
+     procedure_id : 1186454869839393862
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // HideButtonsChildWindows ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE HideButtonsChildWindows()
+      ExécuteThreadPrincipal(HideButtonsChildWindowsT)
+      
+     type : 458752
+   -
+     name : ShowButtonsChildWindows
+     procedure_id : 1186454869839459398
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // ShowButtonsChildWindows ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE ShowButtonsChildWindows()
+      ExécuteThreadPrincipal(ShowButtonsChildWindowsT)
+     type : 458752
+   -
+     name : HideButtonsChildWindowsT
+     procedure_id : 1186454869839524934
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // HideButtonsChildWindowsT ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE HideButtonsChildWindowsT()
+      WIN_Zebra_MX_Demo..Plan = BeforeMXInitialization
+      
+     type : 458752
+   -
+     name : ShowButtonsChildWindowsT
+     procedure_id : 1186454869839590470
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // ShowButtonsChildWindowsT ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE ShowButtonsChildWindowsT()
+      WIN_Zebra_MX_Demo..Plan = AfterMXInitialization
+     type : 458752
+   -
+     name : InitializeLooperExamples
+     internal_properties : CAAAAAgAAAAgT8VxFuuJPKYemRlIZI+Ad1IbSRiChx1aAHFvI8gOAKrWbmzETkJBxseIf/A/qWtFgoLezHLdkPxd/BjQAuTo4x5LuVa4Otp1wgK/c9h5v9a0PtWqzIv8y4Zml9Ck+EFFeDrp9Tv3hIUGzKBLdG9ubX/aql8V6OvxTL6t4sUv2r+V0G0RU4ZPao2qa6rd1d9NWoczebhDURApebUWgHVRIhKtWg==
+     procedure_id : 1186454869839656006
+     type_code : 14
+     code : |1-
+      // Summary: Initializes the Looper control containing the list of examples of this demo
+      // Syntax:
+      // InitializeLooperExamples ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE InitializeLooperExamples()
+      
+      ZoneRépétéeAjouteLigne(LOOP_Examples, "DisplayMgr", "Sleep mode management") 
+      ZoneRépétéeAjouteLigne(LOOP_Examples, "AppMgr", "Application manager") 
+      ZoneRépétéeAjouteLigne(LOOP_Examples, "Clock", "Time management") 
+      ZoneRépétéeAjouteLigne(LOOP_Examples, "PowerMgr", "Operating System management") 
+      ZoneRépétéeAjouteLigne(LOOP_Examples, "WifiMgr", "Wi-Fi configuration") 
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1c51a6e500833fd0
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

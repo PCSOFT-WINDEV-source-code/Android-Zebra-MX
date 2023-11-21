@@ -1,0 +1,378 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_OSManager
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_OSManager
+ identifier : 0x20772270141a4780
+ internal_properties : CAAAAAgAAAA4lw+FF2P/ZgWgOFs4KG8FVDRgOPKi6yMBXo+Uook/tMjRhlZLYUDnfibgVNzpyTVfiNF0IyeYP//zBHaNfpi7ntRxqn0PYBdPk9ndeXYE/PjpKMdDgBJ4L9wKPEOFZMrvJUowvjirssaOo21doO8XCtwQgep7FIR2ObNlSZQGZYGT1lZve6kzy1l/12HOA9X235yem4J0zodXfWHqHFVLQLo6wHpZo8ssqF1w6iW9zTBfAv44T7qzxdjWb9DsvNfioWCYeW62JC0eivQ+7v0WjScSB3rfjmA6DPXnGp7rHGJa/vQJ38D9nytS83j5lyYpSsr/viFBaQGxSzGg5hyyVNg4wwbo8VNd5nObh7t0Owh33kv+q45DjKvRxSyWKNFtdHkhHhATdJELxAMV4xpwnsd+6RMRKuBlu55NGukh4QcNsvwEGidLa8pFTlg+9tk4eS26wQQJyqlSgXuqE4A0DWp+eS24gJMczHhXhr1Pi8WDEefMIfHE/qWDlhE/9CGmijdiMcjoxlcHvbKCF+PUXODOat9efCwzaydaY3ipI3s6kBmw2f5pWr8fdY+HVB95t5FDrz2mVwhYlc4XLoqj8vKoHmIqAKNts7TBmGFD02VhV0AiIShh/l4sogXnnv9RBEgrWK0koVSBYdIxvkVAgz1if1GViWrvSczR4Oy4wpTmZ0/2KktCs9xofijX9h654c5vRyoMIadZLErje06KoRVz5VGIgrM+63bDycy3EBHjcPsqTpq7SQ5vMJMgcexlSJAjoCf19A1C//W4hC1CA1PUYyQVwBSI3+Fw4Ve5PM9DDJ1MV6shXjUS8psCY7S2RIac7tPNRfMq6cMEkBVxo7azcC0DjUcv9cs6BgmSd41iliPXu2sDFPaUVYLq+WvhbkSiwguK/IjRGQ==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : LAYOUT_Control
+    identifier : 0x20772270141b4780
+    internal_properties : CAAAAAgAAAAnkpJSh6YTI65I0XSFyyPe9mxmTEbN+0pdQpNMP9Uh5Hw/5oZPPQq8SeX8UFctfwWNghIlWigNDIk6eLN+5eyCR+eSUR5TkqVvZhTlMZbE2zVe6iIePIKQVj/6od05Sf5kYNsZl9gvjWvdJKAFBYOFrB2qfTVDt6QCoN6OGV/Ja/BeMCZzQNPCQjZPzuZo4KcL3BoJJsdVgmWz3pOiNMIjA5sVJ9fVtEBWqMxZoTdEM2B9rE9xYrItUFK6K0RNXrgSGayJUVY0HDeO1yC9oXEu4zENCkrhotsVixt9NWfaFXZfveuUvAvHyUiey1WZ9fQVUza87HQsqIENrgG4w7AvMfNdvGCBVBH9NAnjXW0BS1yiDXG852osG2FSQgKe2oMJz4sFIZGgJ4XQZZ5t3Fr0X8so3hyqObXmoFT2sjXSrMpPa613z5f4tTB/ZFScrmB7PtQuoYE8afY96cpwsfMp8cLRJn8vrMEs1pjEoDcsklcwGiJk72Lt17ITPqCnVnaV7FI9OPiyCGnvZV6bEBjvNubWkE0xhJ7g/k/pR9IBt9YluhOalGkxfGXPX9EBw9iewSjb
+    properties :
+     x : 8
+     y : 8
+     width : 304
+     height : 391
+    cells :
+     -
+       internal_properties : CAAAAAgAAAAD7eAg1x2ZsDUDN/5Z7vc4+u/N/PGOppMxiQdg/WDEHklFlFoL0ZbxjErFcLqC/S5AhwOHdBsJiygLJ79ljC0t2VrrpK2ofBknL+ukjtsTuuTl2Vg7KPhiEtw0QPb8F9BT0SodYmLSnsHlt0HkNAB5j4dnvc97wWD01BJMiA==
+       controls :
+        -
+          name : RADIO_Operation
+          identifier : 0x20772270141d4780
+          internal_properties : CAAAAAgAAAB8ev/mcQstN6zX47pepdMwIRAfUCxCqAsTLlOrMe0WSvlbCow6a5YdFmXhyaC+GGYhxcj1sxYGRtz2wkDzubHO4xbk9IxqtVn92+VD9GcyRPPrzVrev9n7oFLyLaRIslLtI2e6rewO38sz7X+SBkmQ2kNwCK33Z6pjKUMV3yAv/+PDm7nxZItaH15DajII+nheWNKKVujsqNl8qZJZGW9d9ahxCLtpeYPUZpnOjlAYHSQdyb8uOpr8BhS2tKtYnbqPs3HuWT+xKLBDxRARdus96E7GTxnEAUoI2sHSJeZpGf9LLl2wMGVy3nqRp11muvuZ5Km7bxS98DSIAj8lBTNxsimFrOohZN/QpgIKVSM0IDs+IWFX+lgUGSIOjmdIiFuPrV0mAN9wpDzLuXqMduoYkpOLUnoopQ98lDAMb5MJ1IVqoXY1b5S7nshsQr4TQaG0cDT7CDeZHOy/tmrdDZdehJE2xybDTSxBE9w5+7RdAqjM64VDxQOy929OOjoRhBHgLiAh420WxbbF4uGJwsDF0b7k3kahLyOIiuH/lxiKtyBxyLhBXFyKtABlSaruRbuuIZAyO17/rzW593Xfoh4pXDgXnduTweArYbyzc+KAQNw6lcHsURovE8vctdtE1/QqDbRYmANwNbb3gCqrON9ZpY++HcP7+gmoJdAhVnIjCyPWfKyxeDFhmjld3zavMKSUjnEOrm4iMXAs21f1vhgP7uIHD15Cck9KH0j06kwoTMdeeLQUXaA3wRB4Zc/2lG49Mrezf8M9TGWP6aYCRxKkUBCzdwqrmWx96bNrreeJ1J69f0IxTxQzB/1l3SV3rbOUdo2IflTheBDFJ5QKv6Pcjhve/kkgI5ndEcI48ubMEHK6BQ1bTKikDBaXyiOj07QZGooUkOF4jNO7bpb6kntiIlY6zzs=
+          properties :
+           width : 304
+           height : 222
+          options :
+           -
+             internal_properties : CAAAAAgAAADVwnPGDlE+EkU/AYZp76XSbf5ch8dBztVG++uqmtyfarOzGxQO1/qfvszVkES/tqRFLXVEVYXv1w7iobzqOlTtwHSgfFUtCO+z1vPC79QOmuDmJVzOK1KgAw2M7IeG/o8vQznemJoZY+yCnIjG1/blYSAoMeLrym7u2sH/DBhi
+           -
+             internal_properties : CAAAAAgAAADfgI8GxCxMjyli2K7pxODb2rUQWyH/tHRqxn0ut66RWc38tBJ4092lyNbRCIv78MG7Il91ve4kXn7g942LI7aet1C/Xaumqrxn3wXZx4LKcX9bfTQhMWtSoK5CVSNUoHycBEsMbxpK13m7zsYiFtooJOYnB4jo8D0UEBt+x62e6sdN
+           -
+             internal_properties : CAAAAAgAAAC1+Wt2lM28GzsU3Nkeqr1AVcL0tzpqQ5XePNEsXGZWAgonFppcxf8OWCMb6H0/oq8T9Nefmdx+DoZBeGtut0sJ+SIwCQBx7J7aYtx+9I6CZHwIUYMavPbg0V7QwgmaGNrF8P8dvItIV7byXvAfbBT9ihhRxM5ojG62XEOZhhLHjKg+MKBHe3z9
+           -
+             internal_properties : CAAAAAgAAACbyU6EPGlWcrC4+VumT/9Te1x73BfvIz3WlosEZSmSEXZYxMQ+IUR751YC5rv3CDQzaMchOGfFRlSjLyQhgAqDl56jQB1vKREM++Zj0jol42w2bMqmz4HZdq7oiE6KEdnVW7m94SlNXUROUC2roWRYzHh+SKIPWvx2ujaMkAhmJbemvLukTSNcZ0CWu2K/atvMZ/DVl4lHQZoVqyPbqJ02z1TY
+           -
+             internal_properties : CAAAAAgAAAAyevT/D0QHgSJz3wxRr+bjkJBd+5dPcFrV+42mBGyegLQ2DORJJOcAv3mF+MHO69cxYhdJs7eZUMl9pIaSJpY0idwuvbKR9oADKmvH1qTEHVFuaJRLx3f1nigRvWSRUQiVbGhvWk3N/JXR612vFuzb4rC7OltRxCg2rC3/jCyP2hGnqSfO/Pt6
+           -
+             internal_properties : CAAAAAgAAABcoN/px7iXuFxpncaZ3QFBMAz1sHP51MDA+gSKUECyFRdxtOmVOVVHMcjkjz5ht+UpnQsY4FQ6Qi3p505j4GKlmh4f917rD1UK9Yj+gv5VWnQ1Yaf7GfaoQ5E6eJJtajWgyy10TELrssD5ZBTk6tsegwO6OyK0aYXAecmrMUfTUA==
+          type : 6
+          controls : []
+          code_elements :
+           type_code : 6
+           p_codes :
+            -
+              code : |1+
+               RADIO_Operation = 1
+              type : 14
+            -
+              code : |1+
+               SELON RADIO_Operation
+               	// Install
+               	CAS 6
+               		EDT_EditControl..Visible = VRAI
+               	AUTRE CAS
+               		EDT_EditControl..Visible = Faux
+               FIN
+              type : 17
+     -
+       internal_properties : CAAAAAgAAACz5F72yY2F7wTiD+VxnGOmMvdlerwoTOjtYK58mebk05MkduPhYnxdln2daO0j+0rKXYA1RL0IxiGwdeC76ilnJvkmXCbzjRzGodsH+DA4kK3mr1XyNADhahwKgJpvS/apquGfgNNlcQkqWT2cZ7ynCQF5Gpn3WKzX1MeRuTItRqOh
+       controls :
+        -
+          name : EDT_EditControl
+          identifier : 0x2077227014254780
+          internal_properties : CAAAAAgAAADvSSkUS2ocNHy1UphyUKo0QmQqX0raSZzwEo7ouEqYGQ9mghZ/JtJemnLu3U94CEUj7nDUAGZ9QROJqSLov9ksOtfIPpYJYEXPfW4AZmps+F1x9VzUERBPZ+T3wrkafP642b2pUDUh9M5+J8Bh/XhCLRnu9/tIUCCz6GRuuCwezh+e4nC0FFAU+nApxDrNOMa8eassL2MB6eXMaD4cNwbptd4DlAtgcUUfCCHPlg/mGIHVDZqMFsbJM1bjT1khfrcR9rCBxfyrcv/Q990pyDZeetVrZ7eo5uPbzZxyVjZ4JJmQWFtgva+FOaMgUzGQTl10kw8J/qFx0iW2irREO4UvKLqacN0FBQJabFeGgxqqOdqr9r55UPivN6kdqU6wy7eKFn1RTLBTmla/79FHxcBgwwB9Miya9njNJCBFAK2nYWkW6SDiciapaOHcVUsHEm2STnH62adXEby+CZnDCN0jeDAyxZb/XUZPRyxQW9Ji9QRD+ujJTGhTsb5C/Zuin+Ws9poFLHk1eP4zjfng9HIuJ9iRNbKkKAeI1xM81EYRcxN6X/vAk0AbEFNnoOcRu6abge3Lqt3aOQsw+U3nfC3jahiECrqoagt+A18wk+7+omLd1+osldaiLxkQbXPR5TANOanvEm4NEe4a9ObXalu5heTgMj5VKA9EbyakDEW+BlOaHtQkHr4XhGB6XugQ0OvbMa8FzStteZw4fyqGz4ms7XRnUjIwZQNTDAvq7OsYbO0OzpGaklT8lwxyxIjyGpMa7lPWpUmnqZh7kAgPPq+fhPzbkoWFLkDhpZDj6yiGX6HDyJ8ZR/OUMx/bYL4SIsriy95ZdOZ2BkC5VdhqIhKaWtIBT92oNY/Se66SVD4U2GEfouTt0xzkdIDojkp+Z1hznD6dwFjklUlOiPBCyqPTIf5MJ6mL3AjLgBQoK43V1BWzC6SC+lfMPAy1oLEBiFEo0I9BKbB3RtKYjKTX0VPWdnNuxkDzyTuaNSVIKLCFI82UADMW1THigkmQyS7A1hJ5qJoOJQH2JD4HxdyV6cy2GSg387VUPultfELCoUC9Y41+9qKJCa3orovXCRMO3EyDrU3xB/IxFiyMs9tL757O6CzE9m0oIbyhUgpqzF9DOwNZCtMhqQb9RNcQFnMZeBhx7tVTi+B02pwWtHXmg2k5qTdIu9eJc3rZNNoHhXlOqZhFSS4Qy5NlYfdMQbD/LQdqeiHuvtqP95TAOZ8Zn4fW+n4=
+          properties :
+           y : 2
+           width : 304
+           height : 63
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAAA/dhan5/xu/HHtgsWqz0DL9tejuQKEF0gRHoBiKmIT13OLbSff7W6l6J4zY/fFQP71B3Z9PACdaHinAApzePX9FSNmtqZbcv3fA7urGnzxSI74ygJ0SbSKfmAEzWbJV67loNfzb5+sxA8Nu/TCM3DDUb+VXAEtDQhFzccaZHKI
+       controls :
+        -
+          name : BTN_Run
+          identifier : 0x2077227014274780
+          internal_properties : CAAAAAgAAAC0gNrbfMUKiCGY8MTusZcLfsgq/Gqm0yH9iREiPAKEcBON+Rpn4hYrjcNUqW8Fi51YPoBXDRnCJ66S3LRi25B+SP2wMm85NuGyIzHxWKUk1vfksbRr7ydR5J22j0zIrZq5knTS3L8RYZ+vvzLgx9omdGC7HnhFH7jO84yXsQPWUEE3v7k0d1fpdykrum5yq9SV3lQgge3GGqbVCysjAgeV7t1SgKvSv7MJxJGL46dYZcdKmnloTpahBBe9sfVZSDGsaKFLNWi6lSEn90CsFHFTgLx75j7RgvKFhW1Bfa/qpymyr03qRp6XrpByELTPllX0axsSGRVaKRttS7y9+AoJMcLtBTGuuYiWXtPZUv9GQPIr2XVuqlblSLL3oHDL5ZT+iJswa3GsHUebSVyHcwt4q6b+0KnAM3EKq/Ladaze+FBF5gniz7mX0n2vLb0xPvHlfz7dn+K/q9gkgoT9rg83eCeL6ZfX7oHSOg0uEOTKIDo7hCmXfczfE4tr1QUko8GPBQm8RLpiZ9sxbS+R20aPGEUwa8x/qyE9gR7OkJkUAG34NH+OJPiDX45Yec0X8DF/SB5qy7E8jrgPpLNHQRvGZnBkXz83NTutTHX9ANdXC7H+jqho6H1/ui9Dd61ikrw61FM5u7XoAtfRUc+/f3Rc1Z4nLQt9dXntvBIBpnjaT3X5wqMhIZu8QdOqLuxYdiqK2OBs6ilACCAY6bGjzd1juvXf8/OzufFuRrp7NxnU/U9T6lYwuwoaATEl03M/S7Ji61X8K90vNR1UA/CKJMHNdk/ULKY4ADkVNdmgcjAf8biTqJs8lIIN3omIezQD5J3ZQUlO3fdxiR7tlbuLbzxWlus+7qIG3CE2jS9MQ3rbbfZWIswKqWWZS/vKRBEjJ5zpLbEPEk5D9pdFz1jjIg/boaU=
+          properties :
+           x : 82
+           y : 2
+           width : 140
+           height : 31
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAAB/1rXxbH9CrEdCJkY9QRqeixjZt0PcBmj/I4M5GsIc/qQTQJ7XeM8LusFAXMlG8HXYOWCjJecZfaNOsfTywxlCo7rD61D43KDFN0JCK6tpxPn3MefrgqBxT+tnxMmrBSOjGJIEeFSUtZpxjXMfADVRMyXCsmY8Lccl527TBLLI
+              code : |1+
+               gsTextStatus = "Executing profile" + RC
+               EDT_Stat = gsTextStatus
+               SI RADIO_Operation = 6 ET SansEspace(EDT_EditControl) = "" ALORS
+               	AddLineToStatus("Please indicate the full path to the OS image to be installed." + RC + "Ex: " + "/sdcard/FPU_ATLAS_02-32-04.00-OG-U00-STD.zip")
+               	RETOUR
+               FIN
+               
+               eOperation est un EPowerMgrOperation
+               
+               SELON RADIO_Operation
+               	// Sleep
+               	CAS 1
+               		eOperation = EPowerMgrOperation.SLEEP
+               	// Reboot
+               	CAS 2
+               		eOperation = EPowerMgrOperation.REBOOT
+               	// Enterprise Reset
+               	CAS 3
+               		eOperation = EPowerMgrOperation.ENTERPRISE_RESET
+               		SI Dialogue("Are you sure you want to perform an Enterprise Reset?", ["Yes","No"], 1, 2, dlgIcôneQuestion) = 2 ALORS
+               			RETOUR
+               		FIN
+               	// Factory Reset
+               	CAS 4
+               		eOperation = EPowerMgrOperation.FACTORY_RESET
+               		SI Dialogue("Are you sure you want to perform a Factory Reset?", ["Yes","No"], 1, 2, dlgIcôneQuestion) = 2 ALORS
+               			RETOUR
+               		FIN	
+               	// Full Device Wipe
+               	CAS 5
+               		eOperation = EPowerMgrOperation.FULL_DEVICE_WIPE
+               		SI Dialogue("Are you sure you want to perform a Full Device Wipe?", ["Yes","No"], 1, 2, dlgIcôneQuestion) = 2 ALORS
+               			RETOUR
+               		FIN	
+               	// OS Update
+               	CAS 6
+               		eOperation = EPowerMgrOperation.OS_UPDATE
+               		SI Dialogue("Are you sure you want to perform an OS Update?", ["Yes","No"], 1, 2, dlgIcôneQuestion) = 2 ALORS
+               			RETOUR
+               		FIN	
+               FIN
+               
+               ExecuteProfilePowerMgr(eOperation,EDT_EditControl,"WIN_PowerMgr.CB_Success","WIN_PowerMgr.CB_Error")
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAAA1fAytpb4s38OvMIUcT2rFynU780AkS7qLEMqydDrJ7XsJ/cnx+U7TargZpy0J4vxlhTYvYtDh5i71BgZVUMO0KjoNg+P8RyIIXhaWrc3Ul/9r9bft+oFzVzNXPJWGHvHWk9pgAOTtoSDg/q+1JEfeGupwwcbCzkKDiwUkbniC
+       controls :
+        -
+          name : EDT_Stat
+          identifier : 0x2077227014294780
+          internal_properties : CAAAAAgAAADdZGgL5yVDOdBS+SNpx9QEPFg+PXabZpSprsSA3RBFMEHgxSsAIblY/3nhLbwEuCciSqGIeaYi60UczezyVBkpU1XPltrHBhD5yCB1LFx4OIEEzqseeXis5vUjVHe4YEI1RdbkGkcHkBMySq0if0FR+GpJ9fkcc4DJahBAOND8enXvTGwK5sUnGBMUaHFukXqZ/BuXRF9Wo6tee6VfmFqhS7Kdv9x9Cve+V01WIytTxqmVyEWILK5q9pcBZyCjZid/jhqIHZ5kVn8cAK5s5MI3KXmRJFB2S0QhdmqY2XPy7pvTB3sAC2gGNrQSaT9AzS/UK9oZKWkW9wiACgHY0Lm85N3QqguutYCGevz2HIC+zacLxhrYgRh5Z5nsUqXQOWh6x820shnbdSsaFBVOYA53GTEzXzfBF8EeOMm8uxcGtTuU8HqXpu2JbhD6KOoSA64W9+Do/6RQ4jk0q4YHiMpmHhNiLEv1MDmy3hw6ZB4mPejgWxS8lMIDqNtsM2cfdn8T2AHu1tSER1tmAU8GoyGius+clLq3q1QsV+wfLHuM2X2Frm8IQ5P+s6FM/F2e6i52cwFEbKDrGYL4Sw6pV+zRQKTbVduytKwKQyHt8g93pn+DamPSL/lDlMg9o28y/8xHhpvnTut5WPFx/ExjKiCVI4WJrmlgJIhSKiezt93c/W2FKznhv1Lvqm9eAP1jwcg9GY0YL0PwupmcWKYYSkEqMCuVoDFVXLzKlaHnEnV5wKhVlD9LgIKTP1IUSb/72kKEMrWLU0xwxXaZ41prfGkkhMFhqY9J/vTTksYAnb6BxWASaPxHWeCfNvDgjUfJdgRXxiGd5FbDTKV4Mrk1CLoPw8NBoYxBhdMztYDpHHfU4MiOfAkKKsolH7VMVzDpX7IGaAQcCHeRqmjrN7CNV7RbvW3SLoIkqSMyGuaNH9EfpYeT0nsuv5ZB2VYOw2M/P3IV/HBvbpwPIPVQdcJU94B1deV4wPhaLZr4dkwLuOrxgIHKf7MHjL9CZVL3INATFRzWUwC/ciVayISgsnMXV7mfufwzFQ3lJvkuhsmmnx3ySD8vlEkcwTCh8+HILUyrT/UtTTwPi14Cwn8M5/MlKUln0jpAdbzV2dLO5KkqkFcYZdY8RTkh8fqhwFL0IrLmD7lOfrV9BsMIf1U=
+          properties :
+           y : 2
+           width : 304
+           height : 51
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes :
+      -
+        code : |1+
+         EDT_EditControl..Visible = Faux
+         
+        type : 14
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x20772270142a4780
+  internal_properties : CAAAAAgAAABHFqYf1im/1Sa2Z7BD/fE5qFsgkA34I+o91RjNYNlDo0KYUFUibmbVUKW2WGmPaXbvgIx93dQ80sl9zGIT88JEEF1OhUGJrh9qMbhUcR9VUY6nvtVO6S883NdSByf2cfH5bV39I4D4SDqg8WFG5AxrwzDcOTl6Zqvjbud7k5weAkEmerePqdHGW+PDiqTb/6XVaYzxpna7MjG8mwKT0N45CdmCKkXa30zFlHbmhhYwTdK6Rs4hPf/3yYeuoNN6qq+FUmoO7fbBZ0DYesr9kK6KETO4xZQ2dw98M+CuwtOSkVt6yG9Ab9lsZposs6GqEud7P2J5k27jp2hAadtTURMP9M4pofletGS1WJaio7afEykE0vP9zqiHcKrG/MH8FKm2Ps3DIOQkT9QxvrxHPXpe6xYiAUeyFNUeAgmYWCUDc94I2hu2IQ==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADj1fohzV5m1t/sDyp8B2h5G22crCgNwxP3qrs4+FVPZwFkFmBrCNm9+MODxNDetW5/yrqw0DS+cDI5fBHM5JKwWY2wx+GAFHTYmrZgQlZstve1hK/2b4JzZEQRqOOVK9CxkXMtbl+myowu34Q=
+     code : |1-
+      PROCEDURE MaFenêtre()
+      gsTextStatus est une chaîne = ""
+      LAYOUT_Control[2]..Visible = Faux
+      
+      // Update 02-32 TC56 GMS
+      // EDT_EditControl = "/sdcard/FPU_ATLAS_02-32-04.00-OG-U00-STD.zip"
+      // EDT_EditControl = "/sdcard/CFE_ATLAS_02-32-04.00-OG-U01-STD.zip"
+   -
+     code : |1+
+      LAYOUT_Control[2]..Visible = Vrai
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+  procedures :
+   -
+     name : CB_Success
+     procedure_id : 1186454891316070272
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //CB_Success (<sXMLProfile> is string)
+      //
+      // Parameters:
+      //	sXMLProfile (UNICODE string): <specify the role of sXMLProfile>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE CB_Success(sXMLProfile est une chaine)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus("Profile executed successfully:")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sXMLProfile)
+     type : 458752
+   -
+     name : AddLineToStatus
+     procedure_id : 1186454891316135808
+     type_code : 14
+     code : |1+
+      // Summary: Adds a line of text to the EDT_Stat control
+      // Syntax:
+      //AddLineToStatus (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text to be added to the application status
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // AddLineToStatus("Fly me to the moon")
+      //
+      PROCEDURE AddLineToStatus(sLineToAdd est une chaîne)
+      ExécuteThreadPrincipal(AddLineToStatusT,sLineToAdd)
+      
+     type : 458752
+   -
+     name : AddLineToStatusT
+     procedure_id : 1186454891316201344
+     type_code : 14
+     code : |1+
+      // Summary: Procedure executed in the main thread from AddLineToStatus
+      // Syntax:
+      //AddLineToStatusT (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text string to be added
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCÉDURE AddLineToStatusT(sLineToAdd est une chaîne)
+      gsTextStatus += sLineToAdd + RC
+      EDT_Stat = gsTextStatus
+      //EDT_Stat..Cursor = Length(EDT_Stat)+1
+      
+      
+     type : 458752
+   -
+     name : CB_Error
+     procedure_id : 1186454891316266880
+     type_code : 14
+     code : |1-
+      // Summary: Procedure run when a PrintConnect method returns an error
+      // Syntax:
+      //CB_Error (<sMxProfile> is string, <sMessage> is string, <sError> is string)
+      //
+      // Parameters:
+      //	sMxProfile (UNICODE string): MX profile affected by the error
+      //	sMessage (UNICODE string): Message associated to the error
+      //	sError (UNICODE string): Error encountered in JSON format
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // CB_ErrOr("An error occurred when retrieving the Status","PC_NO_PRINTER_SELECTED")
+      //
+      PROCÉDURE CB_Error(sMxProfile est une chaine, sMessage est une chaine, sError est une chaîne)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMessage)
+      AddLineToStatus("-------------------------------------------")
+      SI sError <> "" ALORS
+      	AddLineToStatus("Error details: ")
+      	AddLineToStatus("-------------------------------------------")
+      	AddLineToStatus(sError)
+      	AddLineToStatus("-------------------------------------------")
+      FIN
+      AddLineToStatus("MX profile: ")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMxProfile)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1c580cd0001c4215
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,366 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_WIFIManager
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_WIFIManager
+ identifier : 0x2077227214824e65
+ internal_properties : CAAAAAgAAAAvAT9DofQy7CY96ayZEylDCHnEbObP357ezrmE8XvfQowcwemXr4ag9//VIUwbWRb2kAlWdFZ5XGeM8cLpJLC0zu1DQBIzQRsOxIzM9EA6rD3rccxu9o+Dlwk9iXOo/4TifvLYgBpHgk6/UN4IKAICWXqkZqNGahoDQ84G34si8hVO//481yuH6huC+77G/J/bK7y9hyMZP9n4TBb+MnOYuRvXkwX4FN2Y839ILnwrVg9raOh3a8hy1PmUV9SFyx+eQunqLhr5AyjxqP+WPpWE1REgujSToeiAcnsWkSY52G121VfF1tVjqVjCyK8kXFAF2r/J5WOyE1RDcMwisGDdrFl2G/sbI9QB1zuErCVwZN7nanmDL7yeGKrJcrn/OTX/g6D3eY9Vb/rpdo6yRy7+iuNyttLTgV4KuXowRzL98kSTScfnW0LKLZgHyljFtqoh0CjLHJ192gPxrB5ggKc4eue6/WVAtGrWSTSr/hKaoySIh4cAS3txXug1LHvI80W/ATXq7RL6AblaHS5iaoQo52vKUhPsgptXAo1opQXQFwz3oCWQEdIabJyrq5kufbniPqELGw84htiJ5bpvqVul7dEezOSOuMJDGmon6u5qR4DGl5C+o1LgFD/M6hmAOYGYGyYTRKNSXiigv4rNY8hibGhGteOrJxkdCmw5LLH3HquRKzdaPhPvEZ/YLDIQkS5o7E6HQyqwHL0g1ppPABVA7FBP7R1y1NRm1MBD/UmSsq6EJGms2GQek6EDXKPNrH5Zgu+GTwDoS+VLh6OHnXgC2TzdUhISdb1ZMaNbhDhvqj58jnlD29z3UosEt2ZAjXxpVrbdHkfanq00kfs4w3lmp2jlPeSTQRbUVdy+bmQbXOD12S5VwraAtxPa10CyVLopwHtHRJTYpjtVh6ZLGzJhJKkF7G6U4QX/
+ properties :
+  width : 320
+  height : 470
+  heightMin : 543
+ controls :
+  -
+    name : COMBO_WiFiControl
+    identifier : 0x2077227214834e65
+    internal_properties : CAAAAAgAAAArNXQpmS3d08676Hp+GAbK0BaOVlMPhzAYQn2ONC4kjuoejLeaTPsqnUfG3XeUcPemFpaBTfOaEvGnJSjA2vyCU66kQIR9UTQ55QC45+uGUzfIgXIkws3CE3BJenoyee0l8oRS/6pSHM7kTf5kTmYO9l0BOycYckNWe3+CqoGc9ZRPn0Sw37ycmbRh17X2Uc0Im6gHRkab/Mdmjf6fAaspKHAPC3f57QPrCsdbuJRijFK15iHPnOHE9BMgXCVm2wRAyEbilnHiCMD4lHlLQKjC2DqpV2lDEDXotnWoZEFpgR05CSqMMLQw/j2DmZuFp+RMFKnYO7VBgd5GrgnrY+gzh76jqOaL+7Nfbd7Br/Hjl4uT0NSEVL4bsoVRabvtVBkO8oShsBWxMLwgDNvxJIfPE2bLpz/lZQ5VBU0lL27NE0nBL5F7DNRuOG49TBMBOMV/nkw7it+NK17stUFlXrJjt1gSzjWbrb9+uYVv2NeCcojpEHw3gtbD0qJ1hpOIfvhZ+w2rrUaWRLGak8J92kg64aAExcizDVGeqjSfawwMzg5b8o3Bik7rwREJ5hVGmdmyAI78rNu2G+ggM4ALmT1dgAYcXHMFf2NjRBEpPNbmN3Ynpm5XowK+8VI5VWxi71qjgpa8aCVbZHBU5CF10tdHcdbF4G36DgNfeuYoEcu4ulHlacO4ecTd9kur6q59CgxMGyKeOj12WsOWLQJDoBZZDgyBXRLsbU+B67Y5k9T5xENuuFcpMtnjKmz34S05bGE1SPMiSGlXHnq5i+9u2uFHXYoRAZfJqBmu7Ht4k1IioolMma/jY5M/3600t8Q/vv2JF/r9DWQ/TvwYQgqHGvNBfdeggYPomLPwtIydG3aVKW0CcDFuE7C59arEGgnBeF9JvQWuToM5P5RzOabrbuvB3cKlzRvWglcCh6b0a1vHUrzFJgIMVeCGS6zG1lOjPKSnlGPb9JDxk8RXa3e2RrLy85otqDZL3pHaXTbTTfL9VJqAkg6JlEUp3Ps7cr1EqaoJwocDuJrR6s7GyTv//dKFOp45QcBgLSw2aPMZlfBxIwFr0V7yWlyfg6U8caQ10F5K6FliYKFiUV/31D5H9aC96WP6nmk3WPyxCRg2hfCuWpuSyzD0Q4IDbqwXFlM0lhFRUrlBXsJEpTeHqw61rlvJx/bSIYDCbLDcUAvEV5QatnfVpMGkaDpOf8CSIJakOFGwsWjVxXu5/4mUamoBy56qjUx0EJh0qRxq1cnl8xUn+xOUWzAVmh9a/34EoW06yhgnlii4K3mjCDd/8y2pVeupBGt4+B0PRALclXp+NXGilgj5rFVNySK4u3roIY43VukLqC40kFnp23udOTl90MugxI94U1eBHly8/5arcrS1vDZnYxe19lDmqWuzsqTI6zyu57S1uCFV45llo3RqOzVXYwlT/kQAXH7ETJ8+D5/Q1OBPLvDtHVLIPMnS7b2EFXyMPLEdYumwbxQ45ZoPpAoF73b/OhpeAK7rWUPoSWCUNbWITdPaspGZUJ/w++ZkKcyWvjuH4Tm0HTuV7f4U2hYoJNiWg3U/NVZ9ml833SIPMUQU+zG3/LZYOadguAv/qcSWbRDrZ7vsaJb0ASL66oldJV0g5W0ttkXTZj1gpBEeGkldI8fKlzFyU2HKSYaVl2qJAX+ghA==
+    properties :
+     x : 8
+     y : 8
+     width : 304
+     height : 61
+    dropdown :
+     internal_properties : CAAAAAgAAADoIetHn/k+NMw3xWmZsLFM7G2L9SmMtvbWLYIYXLFB3IXXsBOlnsepkIQB8FaaE2T+CwtBJUcEjCAp55z7QesiIuZWJzQ+SzWm0XlJvQ+rTHasOOFj5ObLnh55e/T7XccoEZ0eLyw8FZOBSMMtzWnPeIViF77evlZCF2Yt9rEaM90hMbuYudaQQ7ixtbmphr2+s8pLr8p1g9FDjfigPABDQm9MBXcggWUSCZKAfHFrM6oFvLK4MHi8QJGng4fJq9w3g1niMoQSs6ycFKdL1PNRQ0rochEkM5tzXaXja7hBbT3bk/0QYwl0Fr9qxD6KUT9/6VgnqX0W3t7DNd5Svdri5xYLKHnYyHrfuAu1T1a9dvdIEdGJF+kMB+7s9g9nHmo3t2ZVclSmHpZqkyiCowXnVeRTyP9QmOFtAsW28y4rShcvg/AmVwgHhUyOaCrTDE2pjStBO6I98F2p+zSbEEIdRrpj2RQazBARL3T0uC1NgDeu+Tw3ZhtmsZ/PCjQ9Ldzw3vtjlcqGaNT8A3woQNBzo2DDTVyFTgmuRsvGEc2Efu+2Mdne/3iPl3zUuT7UsQdsrIljxw==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : COMBO_NetworkAction
+    identifier : 0x2077227214844e65
+    internal_properties : CAAAAAgAAABHed1D2sEkMYNpW3UdtXLkaL1KjtdX6NC+ctp5czmEdEFN4ZJJwWAq1DNXV+5np4VmtAk0rFH9aag3b09GbFkXJsLw+hkeUthyjS1yvd7+iWt8ItlRnixKeAYpbNKTZcbO+7nsnLr1nVzJGGvoVOGhjYrfbD3LuOF2BuPqtPv/asWVH3V23x9c96sq8nb5HYX8CEriRQYqaK3RdRurIZ9iJezvPMfqXIYphp1oWVPrsfPqm11YxJyephaeaeFLAuzwbRRdfjZHfJb4NvamKlzjNThjx8htFuE2Y02nML77khmCFHM2gd6T+90I8fdVYBk3Qtn5zH87thdGFPm8OcIxlIpvptP9N/D5FFwPtD+HqfW8Kyw2Ngp8P8mCADe5g8VXvn3Gyw3ic9wjcTJsf8RAPY9tG1DaynfyUXtRWHyM+c7e7S+hEvWGfcxNKCiRUxMqYHC5nfn4h9iX9LG7OhgrFvI10JaqRfdGogH/T0F4VCZOv0oyQfh7RNxU+ggd0cCO/aZrIujjW8WmRkLkrSuPmQD47ff+irK7wS5ZHO7uqP8SKarPjgqf6x7IUgcnMFubyNpU5aJIkx4vGLPV7FT1DjrD2fYp/EdH3bwj3B61Acy7F+K320trkovUdKOWCXL4SM6PUA7VnqLejv4SUarS611EIFYvw1+JMhm+CBEqCeRdhFuECraWFqSsT9he+5D8lFqcSvlUp6cZS2jwVjKlWgVI8efT1yPZJJmPiZkWdMZMErfmwFyiSFQ1omVkMwdpNuSp+HBjm1w9L8vrZIGyP/uaGoekO8hXtCnn9PpbfDe7z6U+VNHa1VO9xmNqWHfLKrUq8dnjuPIqlArBNBzkYpLnHNV5WWkI6krqC6cLeJRPLkA77hbr6P0CDlla/XnlLN359ERdEGZ0PMKqaLxwnDJwAw5lvOU0BR3ZZh0Mv0mhxJ6xNu7Njx6Cz6IJef/URiBF3jrdIWppQKTHCbQ5Ve4rCRa0Bv7Z5tD4xYkuEJfVPZLxrWYKTATI1UeOUELrZgSEd1WnapauXE1xJdPl8DF855DtaGKD0a9MRu6D3wZTN9DpKr9mKN1LlT+VCGTIfL5wPZIXw6XX6j+APeyFYr4NqX3RyKJ5A+8uvi8zoDC7JP1MlaPfVYOR5MuDcRy3iWx55nJ+/XscYjmZYFr+YnmFTYfQmI30wrgtQkbNm1BimF7QOdgFB0+rIkTM1QZGkXMXlsGcE6GiK7FdYfjG98KvyTF9SRWX8lce0/2s82Q8h0xUsVvbBSQ0huvwx3/+DSwA08a4D9I5IUmFZUYTRdpAG+Jo4jO4bV4h6LRkZB3FN/uwuFTmDcZOLwZUgVNPjUI8rSdodKAT+cwEvls26Jv8UhEjNzS2Wh95Mb1OTp4KY3hJs6Z16oQ7eyVsVqdIssl7BS2Xdr5xDnwGXzTCQcoTjccS//dc2mPs5BwOh/oGNAdppyWrdbwYwx42ZLla1fEvS1mvGit+etwHq1Aaw39G7Sy2Dy1GXiW25epWjUevqc7PXK6bNaTg0mt2ld/ZWxVSOQAnjHiHji8reIwljXu1O00kXOyJU6UnyofbkqzI9rIyUK34MXBdBbIzgG5mHP1UM+Tz/skmQS8ffT0kiPDg12cZWg==
+    properties :
+     x : 8
+     y : 77
+     width : 300
+     height : 61
+    dropdown :
+     internal_properties : CAAAAAgAAADwEPJBvvef829iTu4l3MNly2IYkPG4I7gHsUxVYs45ruMMqbZNKxqFsJ6bNxZoemE1iKl3TuGlqyXwgfNDnXkxB5QcBD0mbK/EJy53y6bgzeGQp7VvL9VFBaxPFGvM0reKRr0qBh11aiZFxdP0b1IM0OuOmaE3EyY9cPrwkUIuTrqe4SzBs5PIPcLQAyJlR/pgCrjG6BI7UQrH8cEkbRg3fWt9/N8q4nKcdRUjtFym0Y2YVsVD/ZnxCryW2AL9Y8Vs55RRXxbcwuDuZCvjh9Qp/bOjLwER3zjCeGUjYEX/wlXzvPOxPXxhUvA4O0mwhZG2z2TkPEkKLXfxh8fpMA2wPfu+e0S92TL5hBlxXM/CxJ/MwcnRNAu66xUOdPVdTXkIZSFvgktBFcqHJrJlbx7SnG1Lak8RElJfy9yjJKS5tjdqHdpPZY5Ugf2lhjUMTjNd3VUUMLPa7pWLhmjtKp4WU6aHFSRy0qBB/ilzV4BWpD3GbmwSDNeILhr9/RVCCAaU5LXe9WOukPkncGzuyjBZVduteRaIukVhzXhGe2zW5zY4RdSH9XTqeyPLnSF7NYgOGbDrgMLJOF14x/eiSTZYFTybiFeoQdJcahwTNOwLA8jCyjUjcY4qPB4o2JOJg55147aLPd25nbE+BbE/IMv+p8RyQWyetr/HwIjE2q9uN69McQBfA/u01Q7O3N+KEEVaQ8r4lqzr
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : EDT_SSID
+    identifier : 0x2077227214854e65
+    internal_properties : CAAAAAgAAABMRdrUSkMxo/5Ixz4e4Fjg3+QAbcatt6/QUWMyatoTsKnDFiEnyyn3o8h1Tr6ARRH8aiNzfrHp+RSqYzS+YA7lLrjEBE3ndxu9IXF55uMP0uTSfBwJ4yOs/nTWy7UTm61DwqXQhOtHnA0si3qOEWFV+0dl8BMb8LeSyVdwGPeUWRWLJLTgrUXbwIJJu1mJkyf4960x3ijMMKWfoj2ajrvVeHEoI2pH+U4ABRLC1r7wVALvLy8VQM5biiJovuoitITOZYzIJIFrWZvANOpXqeyp0mh+k27lUFzNFFOOrtm8zaFdy/qIAIJTWBIakxpjbhG/suglwzaANHqICUZG8SLJJuEEgutfWYXfUhvkRw6w+TGw0HT5b4hY3tBqXeFJouHY4zeSghH+uiCBp81IZUn6MWmh7AW9sDSY0n3BOn+1S5gM1rNZq/LxMOSG5Rbw6k2sjDmXsjoPHL/381liXyB2k48ocf8qWiiF2V+NZoIAyPMu2T1LgrpO1Adka9hDE0/1CbnArGd1z6WrOv+RXGs/g8R8aoG1xwlLlQyXI/Q4tDwFb6+4jp910f1xe9/vrMeLCXrqvmpyst7kGZof0J+X5ikLLYQNERkyiEkSpe6PoSdtCWPahQiKLPSrx90g++Xv5LfSu352IbU9m4opVXlSm0jzjOWWC2wly+0aKdG+iLeyRyVM3HMu5qLEh2JjYKxrVvg2Xb+bPEzDMQ57wr4NvrM97DFW4/scHF89kNa6bDPhfTwYlP5hCYqr/HOtWLTeXTSioMlXhMpJQLsGDnL78Gt6iiAryxNYNGre3VI8Q29ayXp++LwhRlF2eZ3NFLaSZQw2jNiAcoECPw7qUBoNDDHrhApcIiUwtytc2wcvrPrIPR6gdR4TyG5YaFQ7Xy92RALoOACnqGmKpgdm4bxpTOex/QKbxkgQ+/GYCu+PSuNIVt0Yweyt+oleQsrX9Eeuu/5IiVeyK8KbK5aC5gvNKSTQYyAF9ZhEsLBBtX5ZA53rae2yhxn22N1Gg4NpMnVkgA8aS4smVrfCOiOfb84HqCvLYexN5TeuOkNGbZ98r55rXojSXChsmExcc+lm/WhWyEDO7I2K4SRb8V9+Nc8InwBCnF1ib4n1IWlVTTIPIYh/6dbdfziDKs5E9WaaUPR+XBZF1+umbFHeGpf+9vFC52Ov
+    properties :
+     x : 8
+     y : 146
+     width : 300
+     height : 63
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Run
+    identifier : 0x2077227214864e65
+    internal_properties : CAAAAAgAAAB+E5ajLbGMv8yNstdYNP5tOeF+R9lYmpL5kwQj3D1BxYbwJ6eE01BFPcG4z5b71c3hboeNLZkr64HgkdBeAOW8ABaufh0Fhm45BC2HkD1fv6g/ScatQ9gTNi3aU3DzAtsFqF+i0t9o8ElymGPu4GNFx6XJLIrbQCXt0RLaxTY3YD1M4T60lGVP5coZ67ZREC1RC4fZ1PuCpBuWf9EdjWrTnesG+EVK7CwoTF6U+gevQoJFp2VDfD+570SEeBboBfRiY7J2gR94quS8EeE6Ce855tDXqLLbYB/YhEgeobaoEzelxJH1fpbb+t8b1JDC0EJEg+jbz0RRTrJI+zmnFNp0KVi32TtUVIH0Ml1oFzVwhsqPq+MDh97N43O/xAXVXC78IftaIYnb3xWLd1pUHv2Y9Vol94gLur2cvQgwgx57upA3lxtjtkCQBzNG+ZbYG+kAPbIaGTgbHfS2lMLWYN+4PiV+2wdNzC9sptSOa4mW5REw3dItyPDgbxKWF/LNjELBs0xXSmJGeAceVLogFrGBsp43oThLHcHNhQqG01GLsGJBFzw8EKimn5Wy2VhGaJsgxN1AguVfO30lhhJ1o6GIndf2ioPeodsIQD9g9lHBZ7aC0dVj6CcRkvLMqxuqZLntK2TJGkVvNBgSf6/G2iuugyznuOMGM1R+JVx1yRd1mD0yR/XztnzekKdoGVf9u+O8VklB9T9B3+ncW1QnyRnfT5sak/DSXoKVjtxNX7fbx5WpgDGgC/pvG1QuGG/ntzuI5Zf+D+B9FWUYf4PSvz3cvpxoqnQIOrny3MmSY2+8ZEEJHcvm8/WqJ2izj8LuXRfyfK+iXEUtqnFUWZDNqx75DnjHy2gJDXGsCEfSCMa/xLA2W33wCkf9Z0NfkUsAE9+Y9KEiguVj13lKvCfQNnkxw649VhuKCRTO
+    properties :
+     x : 90
+     y : 217
+     width : 140
+     height : 31
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         gsTextStatus = "Executing profile" + RC
+         EDT_Stat = gsTextStatus
+         SI COMBO_NetworkAction PAS = 1 Et COMBO_NetworkAction PAS = 8 ET COMBO_NetworkAction PAS = 9 ALORS
+         	SI SansEspace(EDT_SSID) = "" ALORS
+         		AddLineToStatus("Please indicate the full path to the OS image to be installed")
+         	RETOUR
+         	FIN
+         FIN
+         
+         // Start by creating a default XML string for WifiMgr
+         // Wi-Fi Manager documentation:
+         // https://techdocs.zebra.com/mx/wifi/
+         // You can generate this file manually based on the documentation
+         // or use StageNow and the "Export to MDM" function 
+         // http://techdocs.zebra.com/stagenow/3-1/about/
+         // http://techdocs.zebra.com/stagenow/3-1/stagingprofiles/#exportingstagingprofiles
+         // https://techdocs.zebra.com/stagenow/4-2/csp/wifi/
+         
+         // Define the Wi-Fi action according to the parameter of COMBO_WiFiControl
+         eWifiAction est un EWifiMgrWifiAction
+         
+         SELON COMBO_WiFiControl
+         	CAS 1
+         		eWifiAction = EWifiMgrWifiAction.DO_NOT_CHANGE	
+         	CAS 2
+         		eWifiAction = EWifiMgrWifiAction.ENABLE_WIFI
+         	CAS 3
+         		eWifiAction = EWifiMgrWifiAction.DISABLE_WIFI
+         	AUTRE CAS
+         FIN
+         
+         // Define the Network action according to the parameter of COMBO_NetworkAction
+         eNetworkAction est un EWifiMgrNetworkAction
+         // Select what is displayed according to the value of the combo box
+         SELON COMBO_NetworkAction
+         	CAS 1 	// Do not change
+         		eNetworkAction = EWifiMgrNetworkAction.DO_NOT_CHANGE
+         	CAS 2 	// Add a Network
+         		eNetworkAction = EWifiMgrNetworkAction.ADD_A_NETWORK		
+         	CAS 3 	// Remove Network
+         		eNetworkAction = EWifiMgrNetworkAction.REMOVE_NETWORK
+         	CAS 4 	// Connect Network
+         		eNetworkAction = EWifiMgrNetworkAction.CONNECT_NETWORK
+         	CAS 5	// Disconnect Network
+         		eNetworkAction = EWifiMgrNetworkAction.DISCONNECT_NETWORK
+         	CAS 6	// Enable Network		
+         		eNetworkAction = EWifiMgrNetworkAction.ENABLE_NETWORK
+         	CAS 7	// Disable Network	
+         		eNetworkAction = EWifiMgrNetworkAction.DISABLE_NETWORK
+         	CAS 8	// Disable All Networks
+         		eNetworkAction = EWifiMgrNetworkAction.DISABLE_ALL_NETWORKS
+         	CAS 9	// Delete All Networks
+         		eNetworkAction = EWifiMgrNetworkAction.DELETE_ALL_NETWORKS
+         	AUTRE CAS
+         FIN
+         
+         
+         ExecuteWifiMgr(eWifiAction, eNetworkAction, EDT_SSID, "WIN_WifiMgr.CB_Success","WIN_WifiMgr.CB_Error")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_Stat
+    identifier : 0x2077227214874e65
+    internal_properties : CAAAAAgAAAD2qe23h+ClgpgEbYdFrm8gh6lXGmXws9K8vY0LkAK2AKzbqxWZumRZwAjPD+qXDBneICVPyqQCBmRq6OZ8nMkSuBXP2624jiNS9MzepvcRgdtIMieil89BcQHL+D2EC8Y3K84qa8ZCqyLN9C/F+1WqKIk1XIpt/M/z2OJWeDR8AA91kfJQ1Dety9E1XYH/y+vu4UDn7iOMfbwjXXl0j2OSodyB/tkyICr8D2D0zav4MtQ+doBNAgZQ7rZdPMZBEPhOwacIJyl1lOiMDkNxQogHgsM8NOPmqz1ZnhZTJYLe7f6oK50uzEyT3fr8/kRszXh3KE7omzoOGSC9bSgEP1XjyHX3i+VHMbhvOoLRKK0dfzIWQbAs8qwXVZiYh1ejAZbrzh+aMhgI8nMY/x5ZwgHmemIow+wHcldbaVytTk+TCSb6j7dAQeWKVTUNHpbhYZjda9eA5aDEeJKiRU6n0izNlKM9g6d4DTMaMXE+3FQGqaoV55EIbE0nDk3Y/g9QUA/uVl8mn0Pg6XW5xKa3BHV8hOfUTgxgJfBEsVcu5lvtGTvAVUje5sB9Z1WJmxjoqbDYQjngK0Tpmaj6HHvwFSbimJraY5kCj1X2HV649ZghOy3J0TgFG1hzJvXMa1oNIscnOhL2NBqpIhof7R1+8H15BTp4Mpf6TJxvo1v9NBhcgYj8A8Ros6IJBpJiHz0Jnv+EjZarZRuh+XIQUyWCsUuE+LJIgFhWfDWXeq47NlJQwvksElkfU6DVEFmxGU5OjeD0MoDYrFw5WUew3QMTeSnHm7ocsksTBvpeJjhsQEeFWpIpfz0hbM2r4nOTabvCZvMHRM/mUjtCuJR2o+zrON20DRV1fyz95oebOINctEupqfEyHDsWkZWSaghw3MsbyoTeTFLN1ygJUtEGj3n1uzaywmN7qlNnj3zl8vOE9WjoHaoffkXovwfnd52B6J1EfJ5stM8hXipHGNx9M7WBRqdaXr4CcxG/xLOScMhu88VXscf5sg1LGbi+yMtQDEVYPhpbaRZuL3SHOTKFUdy5MuH74vqLkkkQ+H0judDCmwwL00mDQfUGkXnqq/3ie6/rAtqw2wlNQbmw2AnhJUWOD0wsFj9RFG7BdXOeVYGEEHk2h1bICkWKc16sLscQzff5wDin2DnyzmM1Raw5v4B5nykiDNEcOfeS5Q==
+    properties :
+     x : 8
+     y : 256
+     width : 300
+     height : 206
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2077227214884e65
+  internal_properties : CAAAAAgAAAA5EJgFKJspbyioWbqp98/r+tWKfv/SBQyftzpnThOJdYTi0tukcJg/glewis8h95B56j6z5/62RFv/TuSBZbDWgrdm3ZEtCm+u9RTsiQuF7ZJTPn2+NVOkEFv+N5cKOQ3NYWX9O3wMML40VZHuWKSHv8T0KVleIqv/Stu7q2CehuW6iv+PjU2ux18/moQn34GxjVTp/pJnQmUAD4IrRFY9xTW6oO+keeanjqBwKJD628xcYGRbvzmxg4ngulXELO03vNRc77gr0er6XJwvSnAQO8WyE1ZooTmmFSIwzNWMjz0EQt0iafMWwOS2/UsM/IUdaaxXbWD1OfLaUyWdEz1thkgrX3/QItInyhggISgtnVMuhEGjYEYl0kx4As/OOlPAwE9Bph5aBZ5LWNql39g4xWiMl70EYqMoHBOWXi955VD6xCG82w==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      gsTextStatus est une chaîne = ""
+      EDT_SSID = ""
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+  procedures :
+   -
+     name : CB_Success
+     procedure_id : 1186454899906596453
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //CB_Success (<sXMLProfile> is string)
+      //
+      // Parameters:
+      //	sXMLProfile (UNICODE string): <specify the role of sXMLProfile>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE CB_Success(sXMLProfile est une chaine)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus("Profile executed successfully:")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sXMLProfile)
+     type : 458752
+   -
+     name : AddLineToStatus
+     procedure_id : 1186454899906661989
+     type_code : 14
+     code : |1+
+      // Summary: Adds a line of text to the EDT_Stat control
+      // Syntax:
+      //AddLineToStatus (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text to be added to the application status
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // AddLineToStatus("Fly me to the moon")
+      //
+      PROCEDURE AddLineToStatus(sLineToAdd est une chaîne)
+      ExécuteThreadPrincipal(AddLineToStatusT,sLineToAdd)
+      
+     type : 458752
+   -
+     name : AddLineToStatusT
+     procedure_id : 1186454899906727525
+     type_code : 14
+     code : |1+
+      // Summary: Procedure executed in the main thread from AddLineToStatus
+      // Syntax:
+      //AddLineToStatusT (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text string to be added
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCÉDURE AddLineToStatusT(sLineToAdd est une chaîne)
+      gsTextStatus += sLineToAdd + RC
+      EDT_Stat = gsTextStatus
+      //EDT_Stat..Cursor = Length(EDT_Stat)+1
+      
+      
+     type : 458752
+   -
+     name : CB_Error
+     procedure_id : 1186454899906793061
+     type_code : 14
+     code : |1-
+      // Summary: Procedure run when a PrintConnect method returns an error
+      // Syntax:
+      //CB_Error (<sMxProfile> is string, <sMessage> is string, <sError> is string)
+      //
+      // Parameters:
+      //	sMxProfile (UNICODE string): MX profile affected by the error
+      //	sMessage (UNICODE string): Message associated to the error
+      //	sError (UNICODE string): Error encountered in JSON format
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // CB_ErrOr("An error occurred when retrieving the Status","PC_NO_PRINTER_SELECTED")
+      //
+      PROCÉDURE CB_Error(sMxProfile est une chaine, sMessage est une chaine, sError est une chaîne)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMessage)
+      AddLineToStatus("-------------------------------------------")
+      SI sError <> "" ALORS
+      	AddLineToStatus("Error details: ")
+      	AddLineToStatus("-------------------------------------------")
+      	AddLineToStatus(sError)
+      	AddLineToStatus("-------------------------------------------")
+      FIN
+      AddLineToStatus("MX profile: ")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMxProfile)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1c5bf8e80017f9ff
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

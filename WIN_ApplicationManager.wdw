@@ -1,0 +1,352 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ApplicationManager
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ApplicationManager
+ identifier : 0x2077226d13423aed
+ internal_properties : CAAAAAgAAAC4F+ZJ+iBQAjQkrFCBOs0pjOrGXBWG0JdFZ4RdAQLjhC+/8ZW0pfAMgapRot2APHxYYUrxYKguS1IbfrutpIxrUych0QQ6oIMmtTMDdXeAjbwYa9tTMfHBRq8L52U3fQSA3DAPwL/sxLPQI/0QqGBsXbe5S2mxvQGJzPUHncE7HeHSMBOErTlHe9iknjXn4L7f+HUJ+f2Bw4qhq2xCsHnbBjobdpLdKSTYZntVaVLfV6ImmK7jpJnqZxQC38Cyck2SSxT/ehzvRPxoL26BZQjE+EBqGu3bZXZBPqD9GCqJqTNlmSJd8NB7qG6052tkMNNTsWphB9Qwr4qMLH7BZe8Hy4/ESZ1VR+9sWLGwS/PpCo7HjCU0/7GN26c57gIUt5EbWv2pB2323YmCs9Ol3ECPgvHcONNkxp58z0LZd3bIv8R2Gbb6eI1BPDj29e4SCHn+xiEGYZTzcuyzA/lQ3eFWb36JaWwCP2vr+v3Ab8T38xdkb/rruH+TgJP3VpfJtwYf5tZtfV5FxMvNxxXvZ+Bn0o69TqO6B+ZAZW3bR+1Tc+4JaajsSZXpYj1gBFDRNoWK1sfLYepFi80kkylsb+9bAXBCMCbRaNGZiotdAtY831YS8a3EF+2n7erabtHC3IKbf/M3qxCygefIyjRbQ3zrVm3tx+QpBlYiYEd1zmsgF2bFQSBr4Lx8O9W8w3a83oLReCaoJXWOZjMSKJQTs46QRSCyC/PrHkVXG6cLF7zx9srZpdMBBQIPFHTrUb8zqf0woJiSVhlLWB1AAAyoEJxKoLPwl0OlgosUrGSU2hTiWyAmLOYH/6NXTBiNrY/z28jVtDW+vV7PkkWX/uQSDFt3froZNdMnrmgXQWDoinGUCrp+zTNA5Pr6u+e7HUn9DnEH58kSjH/8dklylHYpig==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : EDT_Stat
+    identifier : 0x2077226d13433aed
+    internal_properties : CAAAAAgAAAC/sEwcOIhF07y7fygAXp7KaMQZgwkRXzq0N+9IR8Lpi5edJ8vjsAYssHI/9AS+iBPkQ+da1S8RmhhWzpq6wdPSmXmnzmoFhlnVcFB8/juSF0J4vyzR77Gv14TLbRND9HFith5zMtexBswu+oTwMZ7JsT+SXz4XCDM5DAZEhjVRO9IvKvn5zhgvq7oPdRC+5pQOLcrWHJbPm4BY3s15W2TnYmlxwVbTkgZl6bGtkVKzWbHwhx0zUP04W5AWTQLGT0NcA2koIcvCviEPdE2zHIwYeUGo15lFMON9+mMcTeUg8d82dnjtWLn8BNE+7s8sz2+K9mfEy4nYjCY78n5fnUFFCLvbJzlMnJbvvjQobi0fpPX/61Zz32oi0W9h13usrv5sbg9Mjq4K9W4o4azpUXLxVMLQ6ckNVInpSIMpuvgF+FbW9sbtHzbt6rSLcn/GswkwhYdeQXGdy2r9UlwWFuZr3YYlWxxXFB2QGTUaT6pbNUC7ijdhmPtgirwC0hzYLvc+av8U+d1Y+gu8my5JUAaeH2hqKxkL89fGrg/622aVzlS/RebeJtJ6WbBClGlXXv0H6Fx845l2+3GgdNlQw4aqUBYCpoB7J4Dza+b0VW9pUc3Xp6yHSMz/Tc5geGhGQX2leGLmOX5SzB4ju6OeEEBIs/2C62oTZTS9qLjGJhuoTifhPM4yGC31uUMFUfIb78UPa8zxjMjXfrTGpSX79vtLHP9+09hsyRoVSygs80flZ5bzacDwL6fXQl6T1hjxQveCvJpseIN9L61xrF9U4DP3hIci4FKQ02pO/g/xWnTVDNSEU5OqgnMVeaRj3oSbsj0D8EaE10sq4j6239h4gkYgkcUQXg1yMGGYVeOwj2FkRf7iWaSJoc/5DtXr/uuBrecIRiNP764u3lEPKKFSz7pAx1VBySFHYmlrGLUghkf3qs17WRC/OndN7FbNJOD13319pDveKSfwENIYrI0ztyZyG++1C99frMIJINnyA1zxi5U8WrDo+7zo6qwe60/RXYem4W+Y366lsveAZcQEnbkUa8zoSgZwb8/rPF7tsnnIt7thye5ttrdRUs2zFBfuE/xoKmDN7aH/KTvU5fhPZAbTitd+UpGT72kNl62I4Q9vWJPRbOj6GmWCWtEm4p6M/25aXSX5clWryMW2vg==
+    properties :
+     x : 8
+     y : 271
+     width : 304
+     height : 128
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : RADIO_Operation
+    identifier : 0x2077226d13443aed
+    internal_properties : CAAAAAgAAADKXkT5SV01RX23JjTkOjDV6/qVEXjiK/VaXIaeBkuxa9X1isxdSWGQe9DH8TFoI7DgJc2JBv2UzPr+uGJMA6m/dHLmF+xS9cb9vLISzdfuQ+wTai69MhFAr33Ekgztz9hvhurfaF/ojrAHle+3zF27f/qRnOuho7tCvYmmqxD3hq1JxJwNSIfDv5G6ZIifcTEALGFj3FNoUyH2oICiJFJc3hvQyXLLpb7xBAB/8eGJx8L4oiev1HYXPZwnznYtlsqTSFdAQKSoLLxA0MMluS+V4GqKQeanTKohvMnXUJAEOBCY56Uk2+viphoLbtYxqmTV7wtmapb6ZHib21chTLludlgg9odrxM+FeKYDe4jOJO0vtIdyDwvgHkV2hT/uPs9oMS1GCDGYvf6ZDtocMjoMOAhYhbwQiG+7LCCx6mo8sk+U7bCYMR56SDIAhwEVhrcwPssOxNl5fZcy26CsGDqBOoXKNGLrB5sQjEwLkT9YSR1Yj2JRAm3aKwHZPx7EYZlQuaH/89XCbWo4dRQZdoHqwM0+tODaQHLZahkKm9ebLNZTh3KcZJ+DUgw66F2bLFoq4fS7KWn4e1gghVkZvq3GjptYNUpQoIPCm51fIeifRylMUC4ADQfOnvXGM99n3cv/59ZGkCkO9WaIO0bLg2IdTpOhFAIkzNBBqTubCQTZxxmJwAdwkGyjP7HsUWWTktVKi6hcvBxehqH7E85W+0Pk0ejBEM5HGZ/GfyieASa4wamL6WsN9eSim+AIYiHN8IxDt1CJYbl/EAUXyr15OWwTl0GOH9OYVOt4Md7dU9sVvRZgmojjROaBm6taGnx5Npb8etNfdW5kl2dBNKgbyON5153LG3lIBEtrvTveXFerWE4x0KC7zJFUiCfW9dMVFJexSdMfq7WGqBgtsx74T9614KyVQelYdp8M8uWnzw==
+    properties :
+     x : 8
+     y : 8
+     width : 304
+     height : 111
+    options :
+     -
+       internal_properties : CAAAAAgAAADYg4QD0yxAKxvRO6Oh0MOKc82GQ8OOgXFmhgXaDy45WUnUoOaY08WRPAbtJFvD8KE/sltZ1U5MWn1yqxFddY7O+8eEmGihT7fgWYuLrdx4A6Vta0YXM4lkVuhIVzleHp6iLllu5eyYreu5L56Pu6czSbI8k8pcla895yBxwKSh78pI
+     -
+       internal_properties : CAAAAAgAAACz5FO6uADwW/V+FJq1gKwflvHOBOKYtC6GBL2aXZxd5eHirPKGEd/rNBxx9NGpoDHHEC+lB6CisBrWs0H52TIqo93OXqpfwW0iECwy5pO5Ik5ozGXw2uIPA0cpdgJlE5G3xebRmjeNmDgoOdXUfXhs6CLrw8ysvAkg7Gcqq8n6RqOh
+     -
+       internal_properties : CAAAAAgAAACl9lw5VE/rwDqVyLOeGc8+MQrrs0/nZ6TIzPrtv8TKoQ38WcqcVf67IM9vju8tdWi0P1dT5DVcPvt+aykD8glf5o3SMIInaBXrnPRmnbttXJ2+O0kSDLhVHkze9CTVX1bqQg0v6CcWkrlQMGapmF8DATuMouNVY62GnEEQU1F3OLWz
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1+
+         RADIO_Operation = 1
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADx2DCxvSfkCYNoOWPMYK51ZmAy6NO3jKWlxrTOWlUzWdzhQSnw/zUzas2Sp9k4pSyHUzVb0GGG47itzfJzI/PU8083+xLh/4lvoGjJMw1EG/m2w8HD0TfCAwy1c8llNO4320SO4IFxkHyG3uVAxSsH3h2XScPuH3e6ex2ghTN+/Q==
+        code : |1+
+         SELON RADIO_Operation
+         	// Install
+         	CAS 1
+         		STC_EditControlDescription = "Full path of the APK (Ex: /sdcard/TestApp.apk)"
+         	// Update
+         	CAS 2
+         		STC_EditControlDescription = "Full path of the APK (Ex: /sdcard/TestApp.apk)"
+         	// Uninstall
+         	CAS 3
+         		STC_EditControlDescription = "Name of application package (Ex: com.mycompany.myapplication)"
+         		EDT_EditControl = "com.zebra.zebramxdemo"
+         FIN
+        type : 17
+  -
+    name : STC_EditControlDescription
+    identifier : 0x2077226d13483aed
+    internal_properties : CAAAAAgAAABoKzMzb+4X3HnDMLjd5auzP/KE+UoT4aqqrpOgRga18kUai1zI+eRgkhFU6CVtujiR1UbYCf25hgFteIXrgMYxhCuEs4fPTTPXnV9y/xR2J1gsgzakhrKAIMxzZZLUS3xvR/vHupGKh/9pIZrqb6iAsYAdihCaplb4PvaXmcEWFzpR4mUir0+LfgV27t2cQO5JEAywimhzx6qbdQEtqdH1ma9Zwe0ZaksuP8Vh7pEZNeYOM0ES39RyCn6mP+c5TYx2kFZvV7Cr96GdtKSOJudbhukfkbKNltQvE49AQgjVjZDxmNE2l9WT4M35j00eHfE8+6OihldMjL9FvqYCFc+AhfYWUO5Aog2VYwiPSkEdCBWNb/ZJ0sXCWbgCxhcW1IqfQg8lERt5kYXJY+Gd+s8NxNzJVx1RZNUGWGj8dyPpMQyxFK2Z7mOzFubM32RJRHpPu/v34pOwQ0f7ci2bwW80eLjGSW72P/vWHUC2HNriMj8ebifM6FGximI=
+    properties :
+     x : 8
+     y : 127
+     width : 304
+     height : 45
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : EDT_EditControl
+    identifier : 0x2077226d13493aed
+    internal_properties : CAAAAAgAAAAkjfCXb7VQVM3nnJkCe7bKBv7ezhYIJbizWjczd9UvEB2iUc8MXvepSUApvVKE5SGrTU/eL9I/qsv7wu7wiNMd9qJHixmfheFQQqywgIJ/zRuar3WxSpNDLfijwb3fWSYXOhojLOLZJkIP9Y1WGBNWVCIHeqTZqyNTzWGD+YHrYmFRey2EGidjp6rx4Lq73XwVB+9IVJ0Sr/r3BtalS/pI5ht8t3CSPQSlLtXxv4kb/wx/X99EhqabSJSagec/as50nJ+mhchZ5RnbFGq5CBwY4/Bre+l+QwHgZNsfHG3UTfKDpYG1rTxaQJx6loEEFhdgd7Hjw62z+B5zYFODFNjTODzeUuNNby2uBJvQFUX+aBgnNhykTkEOjboewoNMY0Nn12wxUnpETfYyWjeQ2vjP9fzopnH4Nai02WduTDmoy/b31aakd4NIYSwK6v/A0drfPj1zCUBHb8Ed+zx1UP2I6vuCP9o7nPgZ0/u+8/aA7gH0amxhecOjimQ3sD7e/tzsWYYE6K9otZnI6ch94M2YcNV5mjfEvFtzfh5QNwbjgfHQ2UCREwyaeAfmsoxcseQPPhifwOaJ57LRn/DdVmZAmX6oky5nuXRXIu53a/aHxC8FUwLuiWvT+WdhaD1k4bgfIGPENara4KGnN2SS8k1by+wLLaRVWu/+c0m+O1Q8Z9qpprGX7c/jLWV1kBV0jWAzINi21eh5ckmpdcrFPc/3q4XgjUyDnAfg+ShXplZRT9ZhzmhWaHEWYSG56iFrJan2pFuQyf6JGItupAWSlKLXBsz0DXKaW3Qz3faM0x+zV8cvKLPbitDbj+AYRhkd5wCRL58kc3ofjvIt3scRDx3U6ilPqzsaKiFHY7eMgxNyyhpqvZzBXxjC2zzIh/NFKAgnrVKiVUSPLpzSZPTfCYLPivMO0BTUkfrVHgvJymD5W6av9Sks+No4HcBuofgV0IEPywc=
+    properties :
+     x : 8
+     y : 180
+     width : 304
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Run
+    identifier : 0x2077226d134a3aed
+    internal_properties : CAAAAAgAAABsYDlz17Ft3ZS8EV+WhmGjZNw9dc62J1Vf/y+rsd0M+7n1xoANrRYSXxnv/V6/+NvgqahvBpWokOdm0GhC+hbGBSHexhxvXjV5zBip+Jk737eDS2A+jW0OKMarDW70Oh/ipbpXj7dLSmK65DSqFMo4oWeHn5kEB2XEkUobSmwcLiUDwsUgP0rsLhPHYVbsaK3G3BvMWCDW4lppETw4qeVGAA7IlfifWdstsUAi/vc0rUao0yAu5NfzulDm2+dBLZFNuYwkxhRgyn3xW8RWPRpXllR39ZTa3+FGR0bH93AZpso76AbYPrW+I0510hqL0mIhasqHVxb9X2X7bAFTRje7ostT44kGYCVs7yEta754ZnhpijxQsNk14EbN/P+sduMQ0evh63lIoiss7GJo+9nzIPmGxIs69HRSBjVHMN3WiuL/pTpHsrDL7dhqkcb4GapojYc8yTM++bKRI4jLHL/LG51seeHZWexyp1gUZrKE6smLSTOR54HAHdCGdeE8deOMl2Dm4nihsjOCuCFl68I3iUc/KzQzKBLpsEtSXt++MlzuUQUuqGMqPf+LvyG/RBlkquGmRSN3MaJITR0tRxNSNVxpVy11Jnh1ox6N7Kf/10QCmy7oRHTayjr4KU+k1vQFfJQFFT/t55cymitT53zoUgagZ8mTDh67zZ1vdqzGL0wJ2atF4VoXAaDjPIxsZubtZD0CPCv9jRj99D31pxWnmcNyQXsPzhbMo4/T1X9Y3UBVNSiU86PDnbB+0RHd69NQvOvoDavSKgNXKYRb4HNvn8juFwBs7+WIJ0cMfCMorKfKyKz9SgbUcehJIFivj1bJ08FTSM69XxRdX2RQhJGhxPH0PJrKiWJxJDqqCktcIN1fgIkbtKrQ9ltEienFdwhtgDv8HRx3FWzFUy0p6yUcCdVpDg==
+    properties :
+     x : 90
+     y : 232
+     width : 140
+     height : 31
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADBs4QO77VlBlHaN3ikr+7/ecsOPBZ357NhGLM++FVJEQteQKANqt1R0pnvJjQKA7xJ/LikJkqFWSEwm8zhfwtnziZHqvq356mLxbVjT1lttfSu9z5Tytn4extoA2CIKNOSjlLY9zWHpaoMPWY=
+        code : |1+
+         gsTextStatus = "Executing profile" + RC
+         EDT_Stat = gsTextStatus
+         SI SansEspace(EDT_EditControl) = "" ALORS
+         	SELON RADIO_Operation
+         		// Install
+         		CAS 1
+         			AddLineToStatus("Please indicate the full path to the APK to be installed (ex: /sdcard/myTestApp.apk")
+         		// Update
+         		CAS 2
+         			AddLineToStatus("Please indicate the full path to the APK to be updated (ex: /sdcard/myTestApp.apk")	
+         		// Uninstall
+         		CAS 3
+         			AddLineToStatus("Please indicate the package to be uninstalled (ex: com.mycompany.myapplication)")
+         	FIN
+         	RETOUR
+         FIN
+         
+         // Create a variable containing the type of action to be performed
+         // by the Application Manager
+         eEAction est un EAppMgrAction
+         
+         SELON RADIO_Operation
+         	// Install
+         	CAS 1
+         		eEAction = EAppMgrAction.INSTALL
+         	// Update
+         	CAS 2
+         		eEAction = EAppMgrAction.UP_DATE
+         			// Uninstall
+         	CAS 3
+         		eEAction = EAppMgrAction.UNINSTALL		
+         FIN
+         
+         ExecuteProfileAppMgr(eEAction, EDT_EditControl, "WIN_AppMgr.CB_Success","WIN_AppMgr.CB_Error")
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2077226d134b3aed
+  internal_properties : CAAAAAgAAABJAIh1uAu53zh4iYr5R18bSkV67s/C1bxvxyp3XuPZJdQSwss0YGjvUqdgGt8xx0CJWm5jty4GdKtP/vSRdUDGkni1nGm59v8CeRDkiRdteT4vzr1OAf8UTKfCP8cWEZGxvaWte6CAqEJIWYHuXJQTQ2jsYVkSJmMj3tcTY+wOkgkGgneXibmm49tbGiwD5z2lQQz5pg5LagH867pzoN450VmqLlk+++ixWAoiwsL0yV4+yuLFUetzdfsyDO923htxZo6yQWrdg6x8bpY5fKKG7RcceagaU+toV1T6rv/mXTduvGNU80VYAr6wzz3mhhPno1ZNd7IvY8QUjec/nafbIPJH86/gMuI32ijQkdj97QNetJFTsJb14lwIsr/+CqOwMD9Rlm6q1a5baMpVDyiItVj8Jy2U8jO4bOPGjh8JdcBqtDGsKw==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAAMgISi3eZ1y2GcfJt/13qpXFRcz4cUHcgHDrTBu4YJ90ZsdujXCdh3yIpzqnRi0zyjn/XL9RmjzS784vF6CGh/y/NVGPcHoM1Yq3yeD9IXPgOk4T5xF4nmLIYUX3zN/ZaLbJUgbhK9ZIgdmWNdMaixyEROBYUICipKGqFlWsNCCMO816N6cFb0Px3hrSGN192/K1IIi5uRL6GhbwGnjs0GZAP1HPtsBwUpUIPdPBXGE8iQbM77PkSMbqDLd0JaL8KDWlgnRJt9RT2orbxLGQ4j1GpUH8hoQ2SQPh6dtHs1dndvA7BCPIs=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      gsTextStatus est une chaîne = ""
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+  procedures :
+   -
+     name : CB_Success
+     procedure_id : 1186454878429985517
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //CB_Success (<sXMLProfile> is string)
+      //
+      // Parameters:
+      //	sXMLProfile (UNICODE string): <specify the role of sXMLProfile>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE CB_Success(sXMLProfile est une chaine)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus("Profile executed successfully:")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sXMLProfile)
+     type : 458752
+   -
+     name : AddLineToStatus
+     procedure_id : 1186454878430051053
+     type_code : 14
+     code : |1+
+      // Summary: Adds a line of text to the EDT_Stat control
+      // Syntax:
+      //AddLineToStatus (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text to be added to the application status
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // AddLineToStatus("Fly me to the moon")
+      //
+      PROCEDURE AddLineToStatus(sLineToAdd est une chaîne)
+      ExécuteThreadPrincipal(AddLineToStatusT,sLineToAdd)
+      
+     type : 458752
+   -
+     name : AddLineToStatusT
+     procedure_id : 1186454878430116589
+     type_code : 14
+     code : |1+
+      // Summary: Procedure executed in the main thread from AddLineToStatus
+      // Syntax:
+      //AddLineToStatusT (<sLineToAdd> is string)
+      //
+      // Parameters:
+      //	sLineToAdd (UNICODE string): Text string to be added
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCÉDURE AddLineToStatusT(sLineToAdd est une chaîne)
+      gsTextStatus += sLineToAdd + RC
+      EDT_Stat = gsTextStatus
+      //EDT_Stat..Cursor = Length(EDT_Stat)+1
+      
+      
+     type : 458752
+   -
+     name : CB_Error
+     procedure_id : 1186454878430182125
+     type_code : 14
+     code : |1-
+      // Summary: Procedure run when a PrintConnect method returns an error
+      // Syntax:
+      //CB_Error (<sMxProfile> is string, <sMessage> is string, <sError> is string)
+      //
+      // Parameters:
+      //	sMxProfile (UNICODE string): MX profile affected by the error
+      //	sMessage (UNICODE string): Message associated to the error
+      //	sError (UNICODE string): Error encountered in JSON format
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // CB_ErrOr("An error occurred when retrieving the Status","PC_NO_PRINTER_SELECTED")
+      //
+      PROCÉDURE CB_Error(sMxProfile est une chaine, sMessage est une chaine, sError est une chaîne)
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMessage)
+      AddLineToStatus("-------------------------------------------")
+      SI sError <> "" ALORS
+      	AddLineToStatus("Error details: ")
+      	AddLineToStatus("-------------------------------------------")
+      	AddLineToStatus(sError)
+      	AddLineToStatus("-------------------------------------------")
+      FIN
+      AddLineToStatus("MX profile: ")
+      AddLineToStatus("-------------------------------------------")
+      AddLineToStatus(sMxProfile)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1c51b7f60011e14e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

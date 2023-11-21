@@ -1,0 +1,396 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_ZebraMxHelpers
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x10772277031863d2
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAClq42aj9l8LXnYRgIrtCumvnARNFOvHJE0JXrcgU9x1IuA+nQ6AJLhsLanLQy0b0/ULXuRquYdDdOsUoxwwWN6kF3KUyIXHr1mp47ENFwv6y5xtke99IMVBZZIBr/GimVPFsDsh8JUb7PJF3A2+lvAiRzlhcPdoiqTnH4bt1JUuq99knHX1JvcDJk9hTnOHTSz0iyN/b1lMEkLjFRqkWAu4BwEd1RUyaEBeIZ0dnkw0qifuJhINCOcTde1O8yvofw4KMZDSXfZvUOqNOQGgQ==
+     code : |1-
+      ///////////////////////////////////////////////////////////////////////
+      //							AppMgr									 //
+      ///////////////////////////////////////////////////////////////////////
+      EAppMgrAction is Enumération
+      	INSTALL		= "1"
+      	UNINSTALL	= "2"
+      	UP_DATE		= "3"
+      end
+      
+      EAppMgrTarget is Enumération
+      	APK		= "APK"
+      	PACKAGE	= "Package"
+      end
+      
+      ///////////////////////////////////////////////////////////////////////
+      //							PowerMgr								 //
+      ///////////////////////////////////////////////////////////////////////
+      EPowerMgrOperation is Enumération
+      	SLEEP				= "1"				// Put the device to sleep
+      	REBOOT				= "4"					// Restarts the device
+      	ENTERPRISE_RESET	= "5"		// Clears the cache and system data, does not clear the enterprise partition
+      	FACTORY_RESET		= "6"			// Clears the cache and system data, as well as the enterprise partition
+      	FULL_DEVICE_WIPE	= "7"			// Clears everything (system + enterprise) as well as the SD card
+      	OS_UPDATE			= "8"				// Launches an OS update in recovery mode (automated)
+      end
+      
+      
+      ///////////////////////////////////////////////////////////////////////
+      //							WifiMgr									 //
+      ///////////////////////////////////////////////////////////////////////
+      EWifiMgrWifiAction is Enumération
+      	DO_NOT_CHANGE	= ""
+      	ENABLE_WIFI		= "Enable"
+      	DISABLE_WIFI	= "Disable"
+      end
+      
+      EWifiMgrNetworkAction is énumération
+      	DO_NOT_CHANGE			= ""	
+      	ADD_A_NETWORK			= "Add"			
+      	REMOVE_NETWORK			= "Remove"		
+      	CONNECT_NETWORK			= "Connect"		
+      	DISCONNECT_NETWORK		= "Disconnect"	
+      	ENABLE_NETWORK			= "Enable"		
+      	DISABLE_NETWORK			= "Disable"		
+      	DISABLE_ALL_NETWORKS	= "DisableAll"	
+      	DELETE_ALL_NETWORKS		= "RemoveAll"
+      end
+     type : 720896
+  procedures :
+   -
+     name : ExecuteProfileAppMgr
+     internal_properties : CAAAAAgAAADdZD9/UAKtAvAEN9nzUxh4Ae8S8LzBcG7mfq/9kR3ya9N8PiFYEsjy2qEh2Zgfv37jDu93hX0YSItSXOeQApnWf6i8UhgoSPQJ3EDdDj99tju/Qa9sLtYWnvPLZLxnQYkOIrqlsACcOkAigCARSaiEh+e7KLpxMlkekyLk2nholXo6PuP41edfG6F0JEaSaKGRnhhOWWQd7+rZL622xwVMrCrDcOO9SMNUsIeDCb89agRki17nHXPIAeQnqO3GkWvNRUjol+FooS5IXPi0GYb7TKPi8UTUoLH9Yq+yqPe0fn5D4PUotw==
+     procedure_id : 1186454921383863250
+     type_code : 15
+     code : |1+
+      // Summary: This procedure allows performing application management operations
+      // https://techdocs.zebra.com/mx/appmgr/
+      // Syntax:
+      //ExecuteProfileAppMgr (<eEAction> is SET_ZebraMxHelpers.EAppMgrAction, <sTargetValue> is string, <sCallbackSuccess> string, <sCallbackError> is string)
+      //
+      // Parameters:
+      //	eEAction (SET_ZebraMxHelpers.EAppMgrAction): Action to be executed (e.g. Uninstall)
+      //	sTargetValue (UNICODE string): The parameter associated with the action (e.g.: a path of an apk file)
+      //	sCallbackSuccess (UNICODE string): procedure called when the profile has been executed successfully. Prototype: PROCEDURE CB_Success(sXMLProfile is string)
+      //	sCallbackError (UNICODE string): procedure called if an error is encountered when executing the profile. Prototype: PROCEDURE CB_Error(sMxProfile is string, sMessage is string, sError is string)
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // ExecuteProfileAppMgr(EAppMgrAction.INSTALL, "/sdcard/PrintConnect.apk", "WIN_AppMgr.CB_Success","WIN_AppMgr.CB_Error")
+      //
+      // See the code of BTN_Run in the WIN_AppMgr window
+      //
+      procedure ExecuteProfileAppMgr(eEAction is EAppMgrAction, sTargetValue is string UNICODE, sCallbackSuccess is string, sCallbackError is string)
+      
+      // Start by creating a default XML string for the AppMgr
+      // App Manager documentation:
+      // http://techdocs.zebra.com/mx/appmgr/
+      // You can generate this file manually based on the documentation
+      // or use StageNow and the "Export to MDM" function 
+      // http://techdocs.zebra.com/stagenow/3-1/about/
+      // http://techdocs.zebra.com/stagenow/3-1/stagingprofiles/#exportingstagingprofiles
+      // http://techdocs.zebra.com/stagenow/3-1/csp/app/
+      sXMLToExecute is string = [
+      	<?xml version="1.0" encoding="UTF-8"?>
+      	<characteristic type="Profile">
+      	<parm name="ProfileName" value="AppMgrProfile-1"/>
+      	<characteristic type="AppMgr" version="0.5">
+      	<parm name="Action" value="%ACTION%"/>
+      	<parm name="%CIBLE%" value="%TARGETVALUE%"/>
+      	</characteristic>
+      	</characteristic>
+      ]
+      
+      // the % character is used before and after variable parameters to make it easy to replace them
+      
+      // Create the associative array that will contain variable controls
+      aaMyVariableData is ASSOCIATIVE ARRAY of strings UNICODE
+      
+      // Modify associative array according to the order to be executed
+      aaMyVariableData["%ACTION%"] = eEAction
+      
+      switch eEAction
+      	case INSTALL
+      		aaMyVariableData["%TARGET%"] = EAppMgrTarget.APK
+      	case UP_DATE
+      		aaMyVariableData["%TARGET%"] = EAppMgrTarget.APK
+      	case UNINSTALL
+      		aaMyVariableData["%TARGET%"] = EAppMgrTarget.PACKAGE
+      end
+      
+      aaMyVariableData["%TARGETVALUE%"] = sTargetValue
+      
+      // Execute profile
+      ZebraMXExecuteProfileWithVariableData("AppMgrProfile-1", sXMLToExecute, aaMyVariableData, sCallbackSuccess, sCallbackError)
+      
+     type : 458752
+   -
+     name : ExecuteProfileClock
+     internal_properties : CAAAAAgAAAC07eTITCh9JdoUxhfD6ssVX/CEgJUC/kZ4aZdD3bcwRlibtezs3LJfcuEOu3hgqxln3R6r+kQTDu4MOkyYGsI0jkuW3URCMcDVHvAdMuANDp7oKTYXOcZp4Y2R3XnqwLBRMJq/JIo+5Ld9z77nW0OC8F4JAv04PK09TVAQvPuyGhOHb4BwNfy18GKTsDT+ueMY6m+JJyGIG7nMOEnu9SbjRHNUhu6kYjFbMy7SWeXi4VIgVqMLDTDyqBpbtjseDIoh2hP4UQdQV8TagUNaN2eMhNo2m2PxV1s7ZuOGPZqiEiU+pxwvSK5blu6t1IV3uOxraeDXw3fIjy+eVXOy2XW5vCSFB/M=
+     procedure_id : 1186454921383928786
+     type_code : 15
+     code : |1+
+      // Summary: This procedure is used to set the date and time on the device.
+      // http://techdocs.zebra.com/mx/clock/
+      // Syntax:
+      //ExecuteProfileClock (<sTimeZone> is string, <sDate> is string, <sTime> is string, <sCallbackSuccess> is string, <sCallbackError> is string)
+      //
+      // Parameters:
+      // sTimeZone (UNICODE string): time zone in Olson or GMT+-/HH:MM format. e.g. "Europe/London"
+      // sDate (UNICODE string): the date you want to configure in YYYY-MM-DD format. e.g.: "2020-07-01"
+      // sTime (UNICODE string): the time you want to configure in HH:MM:SS format. e.g.: "07:13:00".
+      //	sCallbackSuccess (UNICODE string): procedure called when the profile has been executed successfully. Prototype: PROCEDURE CB_Success(sXMLProfile is string)
+      //	sCallbackError (UNICODE string): procedure called if an error is encountered when executing the profile. Prototype: PROCEDURE CB_Error(sMxProfile is string, sMessage is string, sError is string)
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // ExecuteProfileClock("Europe/London", "2020-07-01", "07:13:00", "WIN_Clock.CB_Success","WIN_Clock.CB_Error")
+      //
+      // See the code of BTN_Run in the WIN_Clock window
+      //
+      
+      procedure ExecuteProfileClock(sTimeZone is string ,sDate is string,sTime is string, sCallbackSuccess is string, sCallbackError is string)
+      
+      // Start by creating a default XML string for the Clock
+      // Clock documentation:
+      // http://techdocs.zebra.com/mx/clock/
+      // You can generate this file manually based on the documentation
+      // or use StageNow and the "Export to MDM" function 
+      // http://techdocs.zebra.com/stagenow/3-1/about/
+      // http://techdocs.zebra.com/stagenow/3-1/stagingprofiles/#exportingstagingprofiles
+      // http://techdocs.zebra.com/stagenow/3-1/csp/clock
+      sXMLToExecute is string = [
+      	<characteristic type="Profile">
+      	<parm name="ProfileName" value="ClockProfile-1"/>
+      	
+      	<characteristic type="Clock" version="0.2">
+      	<parm name="TimeZone" value="%TIMEZONE%"/>
+      	<parm name="Date" value="%DATE%"/>
+      	<parm name="Time" value="%TIME%"/>
+      	</characteristic>
+      	</characteristic>
+      ]
+      
+      // the % character is used before and after variable parameters to make it easy to replace them
+      
+      // Create the associative array that will contain variable controls
+      aaMyVariableData is ASSOCIATIVE ARRAY of strings UNICODE
+      
+      // Define values associated with variable controls
+      aaMyVariableData["%TIMEZONE%"]	= sTimeZone
+      aaMyVariableData["%DATE%"]		= sDate
+      aaMyVariableData["%TIME%"]		= sTime
+      
+      ZebraMXExecuteProfileWithVariableData("ClockProfile-1", sXMLToExecute, aaMyVariableData, sCallbackSuccess,sCallbackError)
+      
+     type : 458752
+   -
+     name : ExecuteProfilePowerMgr
+     internal_properties : CAAAAAgAAACqx1YV5gV5E9XWUJlznL9qzyGsxLAMRr7Nz4dM++cDcRQx22yikEhK1hgLZVlnrLhbpaLJXE9Wf1jI56kP/C8XV7S7decrt9eQ7ZLlKM8NrnMqjp6iqLMklVeoCWgBgqRpQPfmaIhu2WYfo1AFFAGp0fu+rasCOM/RMBUSTgcVOkeKPrbJZ5si8pB2CfSw6BN0zeNCcuo1lS7zOdYnlZkq9Fechc9aCTGteauKph8ms4tGy0qSqFyKU4owHpRteivtrUuV1h1tLbSaff2v1TLlT5qxshc6bKkAO3EvPG1oViBHpzyZeFlZgpmrxeOdgWruf56t4I9M8BvpK/DiPQRQxxv4yPr1TKMaEaoqtIwA2pdhmmI/HnPd8xWChi3bZwdKhfKSdt9ypxHfWqBVDcbKhfVlNwMnAWE3UPgHf69sYPmqI7Paoy8WkK/JjTguo6Q=
+     procedure_id : 1186454921383994322
+     type_code : 15
+     code : |1+
+      // Summary: This procedure allows you to perform operations on the operating system of a Zebra device
+      // http://techdocs.zebra.com/mx/powermgr/
+      // Syntax:
+      //ExecuteProfilePowerMgr (<eOperation> is SET_ZebraMxHelpers.EPowerMgrOperation, <sFullPathOFUpdateFile> is string, <sCallbackSuccess> is string, <sCallbackError> is string)
+      //
+      // Parameters:
+      //	eOperation (SET_ZebraMxHelpers.EPowerMgrOperation): Operation to perform (e.g.: EPowerMgrOperation.SLEEP)
+      //	sFullPathOFUpdateFile (UNICODE string): Path of an OS image. e.g.: "/sdcard/FPU_ATLAS_02-32-04.00-OG-U00-STD.zip"
+      //	sCallbackSuccess (UNICODE string): procedure called when the profile has been executed successfully. Prototype: PROCEDURE CB_Success(sXMLProfile is string)
+      //	sCallbackError (UNICODE string): procedure called if an error is encountered when executing the profile. Prototype: PROCEDURE CB_Error(sMxProfile is string, sMessage is string, sError is string)
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // ExecuteProfilePowerMgr(EPowerMgrOperation.OS_UPDATE,"/sdcard/FPU_ATLAS_02-32-04.00-OG-U00-STD.zip","WIN_PowerMgr.CB_Success","WIN_PowerMgr.CB_Error")
+      //
+      procedure ExecuteProfilePowerMgr(eOperation is EPowerMgrOperation, sFullPathOFUpdateFile is string UNICODE, sCallbackSuccess is string, sCallbackError is string)
+      
+      // Start by creating a default XML string for the PowerMgr
+      // Power Manager documentation:
+      // http://techdocs.zebra.com/mx/powermgr/
+      // You can generate this file manually based on the documentation
+      // or use StageNow and the "Export to MDM" function 
+      // http://techdocs.zebra.com/stagenow/3-1/about/
+      // http://techdocs.zebra.com/stagenow/3-1/stagingprofiles/#exportingstagingprofiles
+      // http://techdocs.zebra.com/stagenow/3-1/csp/power/
+      
+      // Include the XML structure in a string
+      sXMLToExecute is string
+      
+      if eOperation = EPowerMgrOperation.OS_UPDATE
+      	// OS Update
+      	sXMLToExecute = [
+      		<?xml version="1.0" encoding="UTF-8"?>
+      		<characteristic type="Profile">
+      		<parm name="ProfileName" value="PowerMgrProfile-1"/>
+      		<characteristic type="PowerMgr" version="4.2" >
+      		<parm name="ResetAction" value="%OPERATION%"/>
+      		<characteristic type="file-details">
+      		<parm name="ZipFile" value="%FILEPATH%"/>
+      		</characteristic>
+      		</characteristic>
+      		</characteristic>
+      	]
+      else
+      	// Suspend, Reboot, Cleanup, etc.
+      	sXMLToExecute = [
+      		<?xml version="1.0" encoding="UTF-8"?>
+      		<characteristic type="Profile">
+      		<parm name="ProfileName" value="PowerMgrProfile-1"/>
+      		<characteristic type="PowerMgr" version="4.2" >
+      		<parm name="ResetAction" value="%OPERATION%"/>
+      		</characteristic>
+      		</characteristic>
+      	]
+      	
+      end
+      
+      // The % character is used before and after variable parameters to make it easy to replace them
+      
+      // Create the associative array that will contain variable controls
+      aaMyVariableData is ASSOCIATIVE ARRAY of strings UNICODE
+      
+      // Modify associative array according to the order to be executed
+      aaMyVariableData["%OPERATION%"] = eOperation
+      
+      // In the case of an OS update, add the filepath to the update ZIP file.
+      if eOperation = EPowerMgrOperation.OS_UPDATE then
+      	aaMyVariableData["%FILEPATH%"] = sFullPathOFUpdateFile
+      end
+      
+      ZebraMXExecuteProfileWithVariableData("PowerMgrProfile-1", sXMLToExecute, aaMyVariableData, sCallbackSuccess, sCallbackError)
+      
+     type : 458752
+   -
+     name : ExecuteWifiMgr
+     internal_properties : CAAAAAgAAAAFerh63Q17JcF7kGlpyPDdXgSr5MN6YjYG6m/RPURtiVwRDJb28QAkGDxDEdzdxwcvzPx9MQ3kmg/XXENylNNJ9MUPFaNipGFhT7F59okeGdPkzgfNmkupD1YbSNHJIdCTBibLVke8x/K/oxf8QPJBw+iTSQo6GeMmT/0Dda8lHV2u/cAxdgUGBDGnM9gc+l95EfMFgYReX2N/cx+Yj2H6xY1ylS6YCjalyNzMaHH937rEvFEdKIOtUMX8AWT960lDEUdZXGxT85Q2zFYmR5Y1lFvKhvTjlK4TAUEynS230R9Dp2vpEAn9HKmsbFvOlutfh2p2LtBiPoS8QFoFfl/ru7D7belPkhxRKfu/w4nU5ewcHywTq92UXf2kf4qCcf1fabCDR3oZ/GDOwj6DFoWbGnovYS5m68X6uln+qeu0kVHBtGTTKikaxAO7o4jPAAc=
+     procedure_id : 1186454921384059858
+     type_code : 15
+     code : |1+
+      // Summary: This procedure is used to perform operations on the Wi-Fi module of the device.
+      // e.g.: configure a Wi-Fi network, connect to and disconnect from a network, configure DHCP, etc.
+      // https://techdocs.zebra.com/mx/wifi/
+      // Syntax:
+      //ExecuteWifiMgr (<eWifiAction> is SET_ZebraMxHelpers.EWifiMgrWifiAction, <eNetworkAction> is SET_ZebraMxHelpers.EWifiMgrNetworkAction, <sSSID> is string)
+      //
+      // Parameters:
+      //	eWifiAction (SET_ZebraMxHelpers.EWifiMgrActionWifi): Action to be performed on the Wi-Fi module. (e.g.: EWifiMgrWifiAction.ENABLE_WIFI)
+      //	eNetworkAction (SET_ZebraMxHelpers.EWifiMgrNetworkAction): Action to be performed on the network configuration (e.g.: EWifiMgrNetworkAction.DELETE_ALL_NETWORKS)
+      //	sSSID (UNICODE string): Relevant SSID for the action on the network
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // ExecuteWifiMgr(EWifiMgrWifiAction.ENABLE_WIFI, EWifiMgrNetworkAction.CONNECT_NETWORK, "PCSoftBox-25", "WIN_WifiMgr.CB_Success","WIN_WifiMgr.CB_Error")
+      //
+      procedure ExecuteWifiMgr(eWifiAction is EWifiMgrWifiAction, eNetworkAction is EWifiMgrNetworkAction, sSSID is string UNICODE, sCallbackSuccess is string, sCallbackError is string)
+      // Start by creating a default XML string for WifiMgr
+      // Wi-Fi Manager documentation:
+      // https://techdocs.zebra.com/mx/wifi/
+      // You can generate this file manually based on the documentation
+      // or use StageNow and the "Export to MDM" function 
+      // http://techdocs.zebra.com/stagenow/3-1/about/
+      // http://techdocs.zebra.com/stagenow/3-1/stagingprofiles/#exportingstagingprofiles
+      // https://techdocs.zebra.com/stagenow/4-2/csp/wifi/
+      
+      // Include the XML structure in a string
+      sXMLToExecute is string
+      
+      // WIFI profile
+      sXMLToExecute = [
+      		<?xml version="1.0" encoding="UTF-8"?>
+      		<characteristic type="Profile">
+      		<parm name="ProfileName" value="WifiProfile-1"/>
+      		<characteristic type="Wi-Fi" version="4.4">
+      		    <parm name="UseRegulatory" value="0"/>
+              	<parm name="UseDiagnosticOptions" value="0"/>
+              	<parm name="UseAdvancedOptions" value="0"/>
+      ]
+      
+      if eWifiAction not = EWifiMgrWifiAction.DO_NOT_CHANGE then
+      	sXMLToExecute += [
+      	        <characteristic type="System">
+      				<parm name="WiFiAction" value="%WIFIACTION%"/>
+      			</characteristic>
+      	] + CR
+      end
+      
+      if eNetworkAction not = EWifiMgrNetworkAction.DO_NOT_CHANGE then
+      	sXMLToExecute += [
+      			<parm name="NetworkAction" value="%NETWORKACTION%"/>
+      			<characteristic type="network-profile">
+      				<parm name="SSID" value="%SSID%"/>
+      	] + CR
+      	
+      	switch eNetworkAction
+      		case EWifiMgrNetworkAction.DO_NOT_CHANGE
+      			
+      		case ADD_A_NETWORK
+      			sXMLToExecute += [
+      				<parm name="SecurityMode" value="0"/>
+      				<parm name="UseDHCP" value="1"/>
+      				<parm name="UseProxy" value="0"/>
+      			] + CR
+      		case REMOVE_NETWORK
+      			
+      		case CONNECT_NETWORK
+      			
+      		case DISCONNECT_NETWORK
+      			
+      		case ENABLE_NETWORK
+      			
+      		case DISABLE_NETWORK
+      			
+      		case DISABLE_ALL_NETWORKS
+      			
+      		case DELETE_ALL_NETWORKS
+      			
+      	end
+      	
+      	sXMLToExecute += [
+      			</characteristic>
+      	] + CR
+      end
+      
+      sXMLToExecute += [
+      		</characteristic>
+      	</characteristic>
+      ]
+      
+      
+      // The % character is used before and after variable parameters to make it easy to replace them
+      
+      // Create the associative array that will contain variable controls
+      aaMyVariableData is ASSOCIATIVE ARRAY of strings UNICODE
+      
+      // Modify associative array according to the order to be executed
+      aaMyVariableData["%WIFIACTION%"]	= eWifiAction
+      aaMyVariableData["%NETWORKACTION%"]	= eNetworkAction
+      aaMyVariableData["%SSID%"]			= sSSID
+      
+      ZebraMXExecuteProfileWithVariableData("WifiProfile-1", sXMLToExecute, aaMyVariableData, sCallbackSuccess, sCallbackError)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1c5d9767008b2514
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
